@@ -1,0 +1,35 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.left{
+/*  display : flex;
+  justify-content : center;
+  align-items : center;*/
+  background-color:#00cccc;
+/*  height : 100vh;*/
+ /* color : green;*/
+
+}
+.right{
+  /*display : flex;
+  justify-content : center; x
+  align-items : center;*/
+  background-color:#00cccc;
+ /* height : 100vh;
+  color : green;*/
+}
+
+.center {
+   position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  font-size: 300px 
+}
