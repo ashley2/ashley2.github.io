@@ -1,29 +1,19 @@
 
+// $fa-font-path: "~node_modules/font-awesome/scss/font-awesome.scss";
+// @import "~node_modules/font-awesome/scss/font-awesome.scss";
+@import "../css/libs/scss/fontawesome.scss";
+@import "../css/libs/scss/solid.scss";
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
 
-.left{
-/*  display : flex;
-  justify-content : center;
-  align-items : center;*/
+.left, .right{
   background-color:#00cccc;
-/*  height : 100vh;*/
- /* color : green;*/
-
-}
-.right{
-  /*display : flex;
-  justify-content : center; x
-  align-items : center;*/
-  background-color:#00cccc;
- /* height : 100vh;
-  color : green;*/
 }
 
 .center {
-   position: absolute;
+  position: absolute;
   margin: auto;
   top: 0;
   right: 0;
@@ -31,5 +21,11 @@ body {
   left: 0;
   width: 400px;
   height: 400px;
-  font-size: 300px 
+  font-size: 300px
+}
+
+.fold {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
 }
