@@ -1,0 +1,25 @@
+
+ 
+
+
+    
+
+ // @mixin gradient-x-three-colors($start-color: #dd8672, $mid-color: #e3a699, $color-stop: 50%, $end-color: #a9c875) {
+
+ //        background-image: linear-gradient(to bottom, $start-color, $mid-color $color-stop, $end-color);
+
+ //    }
+
+
+ $imgpath: /content/images;
+
+  .cover-container {
+  	background-image: url(#{$imgpath}/bgcolor2.png);
+  	background-repeat: no-repeat;
+    background-size:100% auto;
+    height: 100vh!important;
+  	// @include gradient-x-three-colors;
+  	}
+
+
+  

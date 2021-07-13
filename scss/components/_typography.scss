@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+// @import "variables";
+
+@font-face {
+    font-family: 'Retro Signature';
+    src: url('../fonts/retroSignature/RetroSignatureRegular.woff2') format('woff2'),
+        url('../fonts/retroSignature/RetroSignatureRegular.woff') format('woff'),
+        url('../fonts/retroSignature/RetroSignatureRegular.ttf') format('truetype'),
+        url('../fonts/retroSignature/RetroSignatureRegular.svg#RetroSignatureRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+// .title {
+//     @include font-size(4rem);
+// }
+
+$font-family-sans-serif: 'Quicksand',
+sans-serif;
+$font-signature: 'Retro Signature';
+$font-tagline: 'didot';
+
+// @mixin reset-list {
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+// }
+
+// @mixin horizontal-list {
+//   @include reset-list;
+
+
+body {
+    font-family: $font-family-sans-serif;
+    color: white;
+}
+
+// *** homepage ***
+
+.signature {
+    font-family: $font-signature;
+    font-size: 13rem;
+    // @include responsive-font-size(50px);
+    margin-top: 10rem;
+
+}
+
+.tagline {
+    font-family: $font-tagline;
+    font-size: 4rem;
+    margin-top: -4.5rem;
+}
+
+.welcomeSection {
+    color: black;
+
+    .welcome {
+        font-family: $font-signature;
+        font-size: 8rem;
+    }
+
+    .welcomeSub {
+        font-size: 1.5rem;
+    }
+}

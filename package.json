@@ -1,0 +1,28 @@
+{
+  "name": "ashleywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashley2/aboutashley.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashley2/aboutashley/issues"
+  },
+  "homepage": "https://github.com/ashley2/aboutashley#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.35.0"
+  }
+}
