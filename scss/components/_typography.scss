@@ -17,7 +17,7 @@
 // .title {
 //     @include font-size(4rem);
 // }
-
+$secondaryColor: #dd8672;
 $font-family-sans-serif: 'Quicksand',
 sans-serif;
 $font-signature: 'Retro Signature';
@@ -38,6 +38,19 @@ body {
     color: white;
 }
 
+h2 {
+   color: black;
+  font-family: $font-signature;
+    font-size: 8rem;
+}
+
+h3 {
+    font-family: $font-tagline;
+    color: $secondaryColor; 
+    text-transform: lowercase;
+    letter-spacing: 10px;
+}
+
 // *** homepage ***
 
 .signature {
@@ -52,17 +65,38 @@ body {
     font-family: $font-tagline;
     font-size: 4rem;
     margin-top: -4.5rem;
+    letter-spacing: 3.5px;
 }
 
 .welcomeSection {
     color: black;
 
-    .welcome {
-        font-family: $font-signature;
-        font-size: 8rem;
-    }
+    // .welcome {
+    //     font-family: $font-signature;
+    //     font-size: 8rem;
+    // }
 
     .welcomeSub {
         font-size: 1.5rem;
     }
 }
+
+// contact page
+.card-body {
+   color: $secondaryColor;
+}
+
+.sideCol {
+    background-color: #A2C969;
+}
+
+.contactHeader{
+font-size: 7rem;
+color: white;
+font-family: $font-signature;
+text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+text-align: center;
+
+}
+
+

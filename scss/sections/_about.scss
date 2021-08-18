@@ -1,0 +1,28 @@
+
+$imgpath: /content/images;
+
+
+.illustrationHero {
+    background: url(#{$imgpath}/ashleyillustration.png);
+    // background: url(#{$imgpath}/illustrationNoflowers.png);
+    // 
+}
+
+
+.ashleyImg {
+    max-height: 400px;
+     
+}
+// .outer {
+//     position: relative;
+//     max-width: 400px;
+// }
+
+// .overlay {
+//         position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     background: #ef9f92;
+//     opacity: 0.3;
+//     top: 0;
+//     }

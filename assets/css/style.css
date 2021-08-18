@@ -10742,6 +10742,19 @@ body {
   color: white;
 }
 
+h2 {
+  color: black;
+  font-family: "Retro Signature";
+  font-size: 8rem;
+}
+
+h3 {
+  font-family: "didot";
+  color: #dd8672;
+  text-transform: lowercase;
+  letter-spacing: 10px;
+}
+
 .signature {
   font-family: "Retro Signature";
   font-size: 13rem;
@@ -10752,21 +10765,207 @@ body {
   font-family: "didot";
   font-size: 4rem;
   margin-top: -4.5rem;
+  letter-spacing: 3.5px;
 }
 
 .welcomeSection {
   color: black;
 }
-.welcomeSection .welcome {
-  font-family: "Retro Signature";
-  font-size: 8rem;
-}
 .welcomeSection .welcomeSub {
   font-size: 1.5rem;
 }
 
+.card-body {
+  color: #dd8672;
+}
+
+.sideCol {
+  background-color: #A2C969;
+}
+
+.contactHeader {
+  font-size: 7rem;
+  color: white;
+  font-family: "Retro Signature";
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+.fade-in-text {
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.illustrationHero {
+  background: url(/content/images/ashleyillustration.png);
+}
+
+.ashleyImg {
+  max-height: 400px;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.form-field__label {
+  font-size: 0.75rem;
+  transform: translateY(-14px);
+  display: block;
+  font-weight: normal;
+  left: 0;
+  margin: 0;
+  padding: 18px 12px 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.4s;
+  width: 100%;
+}
+
+.form-field__control {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.form-field__bar {
+  border-bottom: 2px solid #dd8672;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  transform: scaleX(0);
+  transition: all 0.4s;
+  width: 1%;
+}
+
+.form-field__input,
+.form-field__textarea {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #999;
+  color: #333;
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 24px;
+  outline: 0;
+  padding: 0 12px 10px 12px;
+  width: 100%;
+}
+.form-field__input:-ms-input-placeholder ~ .form-field__label,
+.form-field__textarea:-ms-input-placeholder ~ .form-field__label {
+  font-size: 1.2rem;
+  transform: translateY(0);
+}
+.form-field__input:placeholder-shown ~ .form-field__label,
+.form-field__textarea:placeholder-shown ~ .form-field__label {
+  font-size: 1.2rem;
+  transform: translateY(0);
+}
+.form-field__input:focus ~ .form-field__label,
+.form-field__textarea:focus ~ .form-field__label {
+  color: #dd8672;
+  font-size: 0.75rem;
+  transform: translateY(-14px);
+}
+.form-field__input:focus ~ .form-field__bar,
+.form-field__textarea:focus ~ .form-field__bar {
+  border-bottom: 2px solid #dd8672;
+  transform: scaleX(150);
+}
+
+.form-field__textarea {
+  height: 150px;
+}
+
+.sideCol {
+  background-image: linear-gradient(to bottom, #dd8672, #e3a699 50%, #a9c875);
+}
+
+.paper-plane {
+  position: absolute;
+  width: 6.5rem;
+  top: 50%;
+  left: -6.5rem;
+  z-index: 1;
+}
+
+.submitForm {
+  transition: all 0.7s ease;
+  color: white;
+  border: 3px solid #dd8672;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: #dd8672;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+.submitForm:hover {
+  color: white;
+  border: 3px solid #a9c875;
+  background-color: #a9c875;
+}
+
 footer {
   background-color: black;
+  color: #dd8672;
+}
+
+.socialLinks {
+  font-size: 2rem;
+  color: #dd8672 !important;
 }
 
 .navbar {
@@ -10778,11 +10977,143 @@ footer {
   padding-right: 1rem;
 }
 
-.cover-container {
-  background-image: url(/content/images/bgcolor2.png);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 100vh !important;
+.panel {
+  height: 100vh;
+}
+
+.panelOne {
+  background-color: white;
+}
+
+.panelTwo {
+  background-color: #a9c875;
+}
+
+.panelThree {
+  background-color: white;
+}
+
+.panelFour {
+  background-color: #dd8672;
+}
+
+.panelContainer {
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.column {
+  margin-top: 3rem;
+  padding-left: 3rem;
+  transition: 0.5s;
+}
+.column:hover {
+  padding-left: 0;
+  transition: 0.5s;
+}
+.column:hover .card .txt {
+  margin-left: 1rem;
+  transition: 0.5s;
+}
+.column:hover .card .txt h1,
+.column:hover .card .txt p {
+  color: black;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.card.pointer {
+  min-height: 170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: black;
+  letter-spacing: 0.05rem;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+  transition: 0.5s;
+}
+.card.pointer .txt {
+  margin-left: -3rem;
+  z-index: 1;
+  transition: 0.5s;
+}
+.card.pointer .txt h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  opacity: 0;
+  color: white;
+  transition: 0.5s;
+}
+.card.pointer .txt p {
+  font-size: 0.7rem;
+  letter-spacing: 0rem;
+  margin-top: 33px;
+  opacity: 0;
+  color: white;
+  transition: 0.5s;
+}
+.card.pointer .ico-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.cardTxt {
+  z-index: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.static {
+  opacity: 1;
+}
+
+#panelThree {
+  background: url(/content/images/monsterralight.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcomeHero {
+  background: url(/content/images/homebg.png);
+}
+
+body .hero {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+body .hero h1,
+body .hero .tagline {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+body .content {
+  position: absolute;
+  z-index: 1000;
+  top: 100vh;
+  background: #faf8f8;
+  width: 100%;
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */

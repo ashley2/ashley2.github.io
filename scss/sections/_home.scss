@@ -1,25 +1,41 @@
+$imgpath: /content/images;
 
- 
+.welcomeHero {
+    background: url(#{$imgpath}/homebg.png);
+}
 
-
-    
-
- // @mixin gradient-x-three-colors($start-color: #dd8672, $mid-color: #e3a699, $color-stop: 50%, $end-color: #a9c875) {
-
- //        background-image: linear-gradient(to bottom, $start-color, $mid-color $color-stop, $end-color);
-
- //    }
+// HERO IMAGE PARALAX CSS
 
 
- $imgpath: /content/images;
+body {
 
-  .cover-container {
-  	background-image: url(#{$imgpath}/bgcolor2.png);
-  	background-repeat: no-repeat;
-    background-size:100% auto;
-    height: 100vh!important;
-  	// @include gradient-x-three-colors;
-  	}
+    .hero {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
 
+        h1,
+        .tagline {
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+        }
+    }
 
-  
+    .content {
+        position: absolute;
+        z-index: 1000;
+        // top: 80vh;
+        top: 100vh;
+        background: #faf8f8;
+        width: 100%;
+        box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}

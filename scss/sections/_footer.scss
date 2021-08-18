@@ -1,4 +1,14 @@
+$secondaryColor: #dd8672;
+
 footer {
 background-color: black;
-
+color: $secondaryColor;
 }
+
+.socialLinks {
+font-size: 2rem;
+color: $secondaryColor !important;
+}
+
+
+
