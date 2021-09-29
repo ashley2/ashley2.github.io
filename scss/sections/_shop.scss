@@ -1,0 +1,156 @@
+$imgpath: /content/images;
+
+
+
+.ipadImg {
+  background-image: url(#{$imgpath}/ipad.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  min-height: 45rem;
+    margin-top: -32rem;
+
+    // z-index: 1;
+}
+
+.text-col {
+    margin-top: 20rem;
+
+
+}
+
+.slide2, .slide3, .slide4 {
+  margin-top: -3.125rem;
+}
+.slides {
+    opacity: 0;
+        z-index: 5;
+   
+}
+
+// .slideImg1{
+//   background-image: url(#{$imgpath}/fiver.png);
+//   background-position: center; /* Center the image */
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: contain;
+//      min-height: 25rem;
+//     margin-top: -11rem;
+// }
+// .slideImg2 {
+//   background-image: url(#{$imgpath}/etsy.png);
+//        min-height: 25rem;
+//     margin-top: -29rem;
+//   background-position: center; /* Center the image */
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: contain;
+
+// }
+
+// .slideImg3 {
+//   background-image: url(#{$imgpath}/fiver.png);
+//     height: 25rem;
+//     margin-top: -29rem;
+//   background-position: center; /* Center the image */
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: cover;
+
+// }
+
+// .slideImg4 {
+//   background-image: url(#{$imgpath}/etsy.png);
+//     height: 25rem;
+//     margin-top: -29rem;
+//   background-position: center; /* Center the image */
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: cover;
+
+// }
+
+
+// .imgCont {
+//   position: relative;
+//   height: 100vh;
+//   text-align: center;
+//   line-height: 100vh;
+// }
+
+// .slideImgs {
+//   position: absolute;
+// max-height: 500px;
+//   width: 100%;
+//   overflow: hidden;
+//   display: flex;
+
+// }
+// .slideImgs img {
+// max-height: 500px;
+// }
+
+// .axaHeader{
+//  z-index: 1;
+//  position: relative;
+// }
+// .logo {
+//   background: url(#{$imgpath}/daxaLogo.png);
+//   max-height: 700px;
+// margin-top: -10rem;
+// opacity: 0.5;
+// }
+
+
+// img.shopLogo {
+//   opacity: 0.5;
+
+//   /* Set rules to fill background */
+//   // min-height: 100%;
+//   // min-width: 1024px;
+
+//   /* Set up proportionate scaling */
+//   // width: 100%;
+//   max-height: 700px;
+//   // height: auto;
+
+//   /* Set up positioning */
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+// }
+
+// // @media screen and (max-width: 1024px) { /* Specific to this particular image */
+// //   img.shopLogo {
+// //     left: 50%;
+// //     margin-left: -512px;   /* 50% */
+// //   }
+// // }
+
+
+
+// .scroll-trigger-shop {
+//  top: 30% !important;
+
+// }
+
+
+// .slide-container {
+//   display: grid;
+//   grid-template-rows: 1fr;
+//   grid-template-columns: 1fr;
+// }
+
+// .slide {
+//   grid-row: 1;
+//   grid-column: 1;
+// }
+
+// .instagramCont {
+// // max-width: 70%;
+// text-align: center;
+// z-index: 15;
+// position: relative;
+
+// }
+
+
+// .spacer {
+//  height: 200px;
+// }

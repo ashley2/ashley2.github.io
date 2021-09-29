@@ -1,19 +1,39 @@
 [
 	{
-		"header":"TEST 3",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1":"content/images/annualReportImg.png",
-		"image2": "content/images/argif.gif",
-		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards3"
+		"header":"BRAND KIT",
+		"text": "Brand kit package example including logos, banners, typograhpy, colors and social media kit",
+		"image1":"content/images/brandKit.png",
+		"image2": "content/images/brandKit.png",
+		"modalTitle": "BRAND KIT",
+		"cardNum": "cards3",
+		"uniqueId": "card3a"
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
+		"header":"QUINNCHELLA PARTY </br>DESIGNS",
+		"text": "Poster, logo, and social media posts created for a mock party event",
+		"image1":"content/images/quinchella.png",
+		"image2":"content/images/quinnchella.png",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards3"
+		"cardNum": "cards3",
+		"uniqueId": "card3b"
+	},
+	{
+		"header":"Logo </br>Examples",
+		"text": "These are some examples of logos I have created based on clients requirements.",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/logoExamples.png",
+		"modalTitle": "ANNUAL REPORT",
+		"cardNum": "cards3",
+		"uniqueId": "card3c"
+	},
+	{
+		"header":"Event </br> poster",
+		"text": "Event poster and logo creation for digital and print",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/birthdayposter.png",
+		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
+		"cardNum": "cards3",
+		"uniqueId": "card3d"
 	},
 	{
 		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
@@ -21,7 +41,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/annualReportImg.png",
 		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards3"
+		"cardNum": "cards3",
+		"uniqueId": "card3e"
 	},
 	{
 		"header":"TAGGS BACKOFFICE</br>APPLICATION",
@@ -29,22 +50,7 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/annualReportImg.png",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards3"
-	},
-	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards3"
-	},
-	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards3"
+		"cardNum": "cards3",
+		"uniqueId": "card3f"
 	}
 ]

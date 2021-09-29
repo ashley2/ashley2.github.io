@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="node_modules/%40fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $("#footer").load("footer.html");
+    });
+    </script>
 
 <body>
     <!-- navbar -->
@@ -30,10 +36,10 @@
                         <a class="nav-link active" aria-current="page" href="/about.html">about</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/portfolio.html">portfolio</a>
+                        <a class="nav-link" href="/work.html">work</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/digitalArtXAsh.html">digital artXash </a>
+                        <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="/contact.html">contact</a>
@@ -45,53 +51,41 @@
     <section class="illustrationHero hero">
     </section>
     <section class="content">
-        <section class="welcomeSection">
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-6">
-                        <h2 class="welcome fade-in-text text-center fade-in-text my-5">About</h2>
-                        <!-- <div class="outer"> -->
-                        <img src="content/images/aboutashley.JPG" class="img-fluid rounded mx-auto d-block ashleyImg" alt="image of girl">
-                        <!-- <div class="overlay"></div> -->
-                        <!-- </div> -->
-                    </div>
-                    <div class="col-6">
-                        <div class="fade-in-text my-5">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."t</div>
-                    </div>
+        <!-- <section class="welcomeSection"> -->
+        <div class="container pb-5">
+            <div class="row pinTrigger">
+                <div class="col-md-6 fixed">
+                    <h2 class="welcome fade-in-text text-center fade-in-text my-2 trigger1">About</h2>
+                    <!-- <div class="outer"> -->
+                    <img src="content/images/aboutashley.JPG" class="img-fluid rounded d-block ashleyImg animate pb-5" alt="image of girl">
+                    <!-- <div class="overlay">animate__animated animate__slideInLeft animate__slower</div> -->
+                    <!-- </div> -->
+                </div>
+                <div class="col-md-6">
+                    <section class="scroll-trigger-about text-dark">
+                        <p class="p1">Art and technogoloy have always been interests of mine. It was only a matter of time before combining these two things would turn passions into a career.</p>
+                        <p class="p2"> Web Design & Development | Mock-ups & Wireframes | Graphic Design & Art</p>
+                        <p class="p3">Some of my favorite technology: Javascript, CSS, SASS, JQuery, Node, Angular, Photoshop, XD, Procreate and the list continues.</p>
+                        <p class="p4">I also love exploring photography, video editing and social media. If you have a project in mind I would love to help make it become a reality! Shoot me a message!</p>
+                    </section>
                 </div>
             </div>
-        </section>
-        <footer class="pt-5">
-            <div class="container">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-2">
-                        </div>
-                        <div class="col-8 text-center">
-                            © 2021 Ashley Smith, All rights reserved
-                        </div>
-                        <div class="col-2">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                        </div>
-                        <div class="col-4 text-center p-3">
-                            <a class="socialLinks px-2" href="https://twitter.com/code_with_me" title="View Twitter"><i class="fab fa-twitter"></i></a>
-                            <a class="socialLinks px-2" href="https://www.instagram.com/digital_artxash/?hl=en" title="View Instragram"><i class="fab fa-instagram"></i></a>
-                            <a class="socialLinks px-2" href="https://github.com/ashley2" title="View Github"><i class="fab fa-github-square"></i></a>
-                            <a class="socialLinks px-2" href="https://www.facebook.com/DigitalArtXAsh" title="View Github"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                        <div class="col-4">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
+        <footer id="footer" class="aboutFooter position-sticky"></footer>
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <script src="about.js"></script>
+      <script type="text/javascript">
+            
+            $(document).ready(function() {
+/*! Fades in page on load */
+$('body').css('display', 'none').fadeIn(700);
+console.log('fade')
+})
+        </script>
 </body>
 
 </html>

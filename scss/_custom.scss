@@ -1,12 +1,89 @@
-
-
 // import bootstrap 5
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import '../node_modules/bootstrap/scss/_variables';
-
 @import "../node_modules/bootstrap/scss/_functions.scss";
-@import "../node_modules/bootstrap/scss/_utilities.scss";
 
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+@import "../node_modules/bootstrap/scss/_mixins";
+
+@import "../node_modules/bootstrap/scss/_utilities.scss";
+@import "../node_modules/rfs/scss.scss";
+
+// @import "./node_modules/rfs/scss.scss";
 // @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
+
+
+
+// **  RFS responsive sass
+.signature {
+    @include font-size(13rem !important);
+    @include margin-top(10rem !important);
+
+}
+
+.tagline {
+    @include font-size(4rem !important);
+    @include margin-top(-4.5rem !important);
+}
+
+// .ashleyImg {
+//     @include height(20rem !important);
+
+
+// }
+
+.sliderContent,
+.aboutText {
+    @include font-size(2rem !important);
+}
+
+.shopTitle {
+    @include font-size(10rem !important);
+}
+
+.socialLinks {
+    @include font-size(2rem !important);
+}
+
+// .copywrite {
+//      @include font-size(2rem !important);
+// }
+
+// .scroll-trigger-about{
+//      @include font-size(1rem !important);
+// }
+
+
+@include media-breakpoint-between(xs, sm) {
+    .copywrite {
+        font-size: 8px;
+    }
+}
+
+@include media-breakpoint-between(sm, md) {
+    .copywrite {
+        font-size: 10px;
+    }
+}
+
+// @media screen and (max-width: 1024px) { /* Specific to this particular image */
+//   img.shopLogo {
+//     left: 50%;
+//     margin-left: -512px;   /* 50% */
+//   }
+// }
+@include media-breakpoint-between(md, xl) {
+     img.shopLogo {
+    left: 50% !important;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+@include media-breakpoint-between(xs, sm) {
+    img.shopLogo {
+        left: -24%;
+        top: 7%;
+    }
+}

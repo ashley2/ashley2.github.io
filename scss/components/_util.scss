@@ -33,3 +33,17 @@
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
+.modalImage {
+  max-width: 48rem;
+}
+
+
+hr {
+  width: 10rem;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(221, 134, 114, 0), rgba(221, 134, 114, 0.75), rgba(221, 134, 114, 0));
+}
+
+

@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="node_modules/%40fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+            $("#footer").load("footer.html");
+        });
+        </script>
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light bg-transparent ">
@@ -29,10 +35,10 @@
                         <a class="nav-link" href="/about.html">about</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/portfolio.html">portfolio</a>
+                        <a class="nav-link" href="/work.html">work</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/digitalArtXAsh.html">digital artXash </a>
+                        <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="/contact.html">contact</a>
@@ -55,53 +61,35 @@
     <section class="content">
         <section class="welcomeSection">
             <div class="container">
-                    <div class="col-12 text-center">
-                        <section class="welcomeSection pb-5">
-                            <div class="col-12 text-center">
-                                <h2 class="welcome fade-in-text">Welcome!</h2>
-                              <!--   <div class="clearfix"></div>
+                <div class="col-12 text-center">
+                    <section class="welcomeSection pb-5">
+                        <div class="col-12 text-center">
+                            <h2 class="welcome fade-in-text">Welcome!</h2>
+                            <!--   <div class="clearfix"></div>
                                 <div class="ct-section_header-separator"></div> -->
-                                <div class="welcomeSub fade-in-text">
-                                    <div>Developer, Designer, Graphic Design, Artist, Creative.</div>
-                                    <div>Whatever it is, you can find me creating digitally.</div>
-                                    <div>Here you can find all things I am working on.</div>
-                                </div>
+                            <div class="welcomeSub fade-in-text">
+                                <div>Developer, Designer, Artist, Visionary</div>
+                                <div> always creating digitally.</div>
+                                <div>Here you can find some of the most recent things I have worked on.</div>
                             </div>
-                        </section>
-                    </div>
-            </div>
-            </div>
-        </section>
-        <footer class="pt-5" >
-            <div class="container">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-2">
                         </div>
-                        <div class="col-8 text-center">
-                            © 2021 Ashley Smith, All rights reserved
-                        </div>
-                        <div class="col-2">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                        </div>
-                        <div class="col-4 text-center p-3">
-                            <a class="socialLinks px-2" href="https://twitter.com/code_with_me" title="View Twitter"><i class="fab fa-twitter"></i></a>
-                            <a class="socialLinks px-2" href="https://www.instagram.com/digital_artxash/?hl=en" title="View Instragram"><i class="fab fa-instagram"></i></a>
-                            <a class="socialLinks px-2" href="https://github.com/ashley2" title="View Github"><i class="fab fa-github-square"></i></a>
-                            <a class="socialLinks px-2" href="https://www.facebook.com/DigitalArtXAsh" title="View Github"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                        <div class="col-4">
-                        </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </footer>
+        </section>
+        <footer id="footer"></footer>       
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
         <script src="index.js"></script>
+        <script type="text/javascript">
+            
+            $(document).ready(function() {
+/*! Fades in page on load */
+$('body').css('display', 'none').fadeIn(700);
+console.log('fade')
+})
+        </script>
 </body>
 
 </html>
+

@@ -1,51 +1,31 @@
 [
 	{
-		"header":"TEST 4",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"header":"iphone and ipad </br> wallpaper patterns",
+		"text": "Original designs used for phone backgrounds sold on my Digital ArtXAsh etsy shop",
 		"image1":"content/images/annualReportImg.png",
-		"image2": "content/images/argif.gif",
+		"image2": "content/images/phoneWallpaper.png",
 		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards4"
+		"cardNum": "cards4",
+		"uniqueId": "card4a"
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"header":"Pet </br> illustrations",
+		"text": "Pet illustrations digital or for print",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
+		"image2":"content/images/petIllustrations.png",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards4"
+		"cardNum": "cards4",
+		"uniqueId": "card4b"
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"header":"plant prints",
+		"text": "Plant illustrations </br> for digital or print",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
+		"image2":"content/images/plantPrints.png",
 		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards4"
-	},
-	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards4"
-	},
-	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards4"
-	},
-	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
-		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards4"
+		"cardNum": "cards4",
+		"uniqueId": "card4c"
+
 	}
 
 ]

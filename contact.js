@@ -1,5 +1,8 @@
  $(document).ready(function() {
 
+
+
+
   // airplane animation
     const flightPath = {
         curviness: 1.5,

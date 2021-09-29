@@ -10730,6 +10730,88 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.signature {
+  font-size: calc(2.425rem + 14.1vw) !important;
+  margin-top: calc(2.125rem + 10.5vw) !important;
+}
+@media (min-width: 1200px) {
+  .signature {
+    font-size: 13rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .signature {
+    margin-top: 10rem !important;
+  }
+}
+
+.tagline {
+  font-size: calc(1.525rem + 3.3vw) !important;
+  margin-top: calc(-1.575rem - 3.9vw) !important;
+}
+@media (min-width: 1200px) {
+  .tagline {
+    font-size: 4rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .tagline {
+    margin-top: -4.5rem !important;
+  }
+}
+
+.sliderContent,
+.aboutText {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+@media (min-width: 1200px) {
+  .sliderContent,
+.aboutText {
+    font-size: 2rem !important;
+  }
+}
+
+.shopTitle {
+  font-size: calc(2.125rem + 10.5vw) !important;
+}
+@media (min-width: 1200px) {
+  .shopTitle {
+    font-size: 10rem !important;
+  }
+}
+
+.socialLinks {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+@media (min-width: 1200px) {
+  .socialLinks {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .copywrite {
+    font-size: 8px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .copywrite {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  img.shopLogo {
+    left: 50% !important;
+    margin-left: -512px;
+    /* 50% */
+  }
+}
+@media (max-width: 575.98px) {
+  img.shopLogo {
+    left: -24%;
+    top: 7%;
+  }
+}
 @font-face {
   font-family: "Retro Signature";
   src: url("../fonts/retroSignature/RetroSignatureRegular.woff2") format("woff2"), url("../fonts/retroSignature/RetroSignatureRegular.woff") format("woff"), url("../fonts/retroSignature/RetroSignatureRegular.ttf") format("truetype"), url("../fonts/retroSignature/RetroSignatureRegular.svg#RetroSignatureRegular") format("svg");
@@ -10757,14 +10839,10 @@ h3 {
 
 .signature {
   font-family: "Retro Signature";
-  font-size: 13rem;
-  margin-top: 10rem;
 }
 
 .tagline {
   font-family: "didot";
-  font-size: 4rem;
-  margin-top: -4.5rem;
   letter-spacing: 3.5px;
 }
 
@@ -10789,6 +10867,24 @@ h3 {
   font-family: "Retro Signature";
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
   text-align: center;
+}
+
+#animateTwo {
+  color: #FAF9F6 !important;
+}
+
+#animateThree {
+  color: #d4d0bc;
+}
+
+p.text {
+  color: black;
+  text-align: center;
+}
+
+.sliderContent,
+.aboutText {
+  font-family: "didot";
 }
 
 .fade-in-text {
@@ -10839,12 +10935,32 @@ h3 {
     opacity: 1;
   }
 }
+.modalImage {
+  max-width: 48rem;
+}
+
+hr {
+  width: 10rem;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(221, 134, 114, 0), rgba(221, 134, 114, 0.75), rgba(221, 134, 114, 0));
+}
+
 .illustrationHero {
   background: url(/content/images/ashleyillustration.png);
 }
 
 .ashleyImg {
   max-height: 400px;
+  opacity: 0;
+}
+
+.scroll-trigger-about {
+  top: 0;
+}
+
+.p1, .p2, .p3, .p4, .p5 {
+  opacity: 0;
 }
 
 .form-field {
@@ -10964,7 +11080,6 @@ footer {
 }
 
 .socialLinks {
-  font-size: 2rem;
   color: #dd8672 !important;
 }
 
@@ -10977,16 +11092,12 @@ footer {
   padding-right: 1rem;
 }
 
-.panel {
-  height: 100vh;
-}
-
 .panelOne {
   background-color: white;
 }
 
 .panelTwo {
-  background-color: #a9c875;
+  background-color: #d4d0bc;
 }
 
 .panelThree {
@@ -10995,11 +11106,6 @@ footer {
 
 .panelFour {
   background-color: #dd8672;
-}
-
-.panelContainer {
-  max-height: 100vh;
-  overflow-y: scroll;
 }
 
 .column {
@@ -11078,11 +11184,28 @@ footer {
   opacity: 1;
 }
 
-#panelThree {
-  background: url(/content/images/monsterralight.png);
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+.ipadImg {
+  background-image: url(/content/images/ipad.png);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: contain;
+  min-height: 45rem;
+  margin-top: -32rem;
+}
+
+.text-col {
+  margin-top: 20rem;
+}
+
+.slide2, .slide3, .slide4 {
+  margin-top: -3.125rem;
+}
+
+.slides {
+  opacity: 0;
+  z-index: 5;
 }
 
 .welcomeHero {

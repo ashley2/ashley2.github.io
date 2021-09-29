@@ -1,19 +1,21 @@
 [
 	{
 		"header":"HHS ANNUAL</br>REPORT",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present. Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
 		"image1":"content/images/annualReportImg.png",
 		"image2": "content/images/argif.gif",
 		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards1"
+		"cardNum": "cards1",
+		"uniqueId": "card1a"
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"header":"Tracking Accountability in </br>Government Grants System",
+		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present. Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/annualReportImg.png",
+		"image2":"content/images/taggsGif.gif",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
-		"cardNum": "cards1"
+		"cardNum": "cards1",
+		"uniqueId": "card1b"
 
 	},
 	{
@@ -22,6 +24,7 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/annualReportImg.png",
 		"modalTitle": "ANNUAL REPORT",
-		"cardNum": "cards1"
+		"cardNum": "cards1",
+		"uniqueId": "card1c"
 	}
 ]

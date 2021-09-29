@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-
-// @import "variables";
-
 @font-face {
     font-family: 'Retro Signature';
     src: url('../fonts/retroSignature/RetroSignatureRegular.woff2') format('woff2'),
@@ -14,24 +11,12 @@
     font-display: swap;
 }
 
-// .title {
-//     @include font-size(4rem);
-// }
+
 $secondaryColor: #dd8672;
 $font-family-sans-serif: 'Quicksand',
 sans-serif;
 $font-signature: 'Retro Signature';
 $font-tagline: 'didot';
-
-// @mixin reset-list {
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-// }
-
-// @mixin horizontal-list {
-//   @include reset-list;
-
 
 body {
     font-family: $font-family-sans-serif;
@@ -39,14 +24,14 @@ body {
 }
 
 h2 {
-   color: black;
-  font-family: $font-signature;
+    color: black;
+    font-family: $font-signature;
     font-size: 8rem;
 }
 
 h3 {
     font-family: $font-tagline;
-    color: $secondaryColor; 
+    color: $secondaryColor;
     text-transform: lowercase;
     letter-spacing: 10px;
 }
@@ -55,48 +40,71 @@ h3 {
 
 .signature {
     font-family: $font-signature;
-    font-size: 13rem;
-    // @include responsive-font-size(50px);
-    margin-top: 10rem;
-
+    // font-size: 13rem;
+    // margin-top: 10rem;
 }
 
 .tagline {
     font-family: $font-tagline;
-    font-size: 4rem;
-    margin-top: -4.5rem;
+    // font-size: 4rem;
+    // margin-top: -4.5rem;
     letter-spacing: 3.5px;
 }
 
 .welcomeSection {
     color: black;
 
-    // .welcome {
-    //     font-family: $font-signature;
-    //     font-size: 8rem;
-    // }
-
     .welcomeSub {
         font-size: 1.5rem;
     }
 }
 
+
+// work
+
+
+
 // contact page
 .card-body {
-   color: $secondaryColor;
+    color: $secondaryColor;
 }
 
 .sideCol {
     background-color: #A2C969;
 }
 
-.contactHeader{
-font-size: 7rem;
-color: white;
-font-family: $font-signature;
-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
-text-align: center;
+.contactHeader {
+    font-size: 7rem;
+    color: white;
+    font-family: $font-signature;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    text-align: center;
 
 }
 
+#animateTwo {
+    color: #FAF9F6 !important;
+
+}
+
+#animateThree {
+    color: #d4d0bc;
+}
+
+// digital ArtXAsh page 
+
+p.text {
+    color: black;
+    text-align: center;
+}
+
+// .shopTitle {
+//     font-size: 10rem;
+// }
+
+.sliderContent,
+.aboutText {
+    // font-size: 2rem;
+    font-family: $font-tagline;
+}
 

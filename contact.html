@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="node_modules/%40fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-
 </head>
-<!-- <body style="background-color:#A2C969;"> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $("#footer").load("footer.html");
 
-<body id="contactBody">
+    });
+    </script>
+
+<body id="contactBody" onload="removeForm()">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-transparent mb-5">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +32,10 @@
                         <a class="nav-link" href="/about.html">about</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/portfolio.html">work</a>
+                        <a class="nav-link" href="/work.html">work</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="/digitalArtXAsh.html">digital artXash </a>
+                        <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link active" aria-current="page" href="/contact.html">contact</a>
@@ -56,32 +61,26 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <div class="container">
-                                    <form onsubmit="alert('submit!')" action="https://getsimpleform.com/messages?form_api_token=9bb2b413121ba6348b16760ffee7009f" id="email-signup" method="post">
+                                    <div class="powr-form-builder" id="3fc79914_1630432109"></div>
+                                    <script src="https://www.powr.io/powr.js?platform=html"></script>
+                                    <!--  <form action="https://formspree.io/f/mqkwweld" method="POST" id="email-signup">
                                         <div class="row">
                                             <div class="col-sm">
                                                 <div class="form-field">
                                                     <div class="form-field__control">
-                                                        <input id="firstname" type="text" class="form-field__input" placeholder=" " />
-                                                        <label for="firstname" class="form-field__label">First name</label>
+                                                        <input name="name" id="name" type="text" class="form-field__input" placeholder=" " />
+                                                        <label for="firstname" class="form-field__label">Name</label>
                                                         <div class="form-field__bar"></div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm">
-                                                <div class="form-field">
-                                                    <div class="form-field__control">
-                                                        <input id="lastname" type="text" class="form-field__input" placeholder=" " />
-                                                        <label for="lastname" class="form-field__label">Last name</label>
-                                                        <div class="form-field__bar"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                          
                                         </div>
                                         <div class="row">
                                             <div class="col-sm">
                                                 <div class="form-field">
                                                     <div class="form-field__control">
-                                                        <input id="email" type="email" class="form-field__input" placeholder=" " />
+                                                        <input id="email" type="email" name="_replyto" class="form-field__input" placeholder=" " />
                                                         <label for="email" class="form-field__label">Email</label>
                                                         <div class="form-field__bar"></div>
                                                     </div>
@@ -92,15 +91,19 @@
                                             <div class="col-sm">
                                                 <div class="form-field">
                                                     <div class="form-field__control">
-                                                        <textarea id="additionalInfo" class="form-field__textarea" placeholder=" "></textarea>
+                                                        <textarea id="additionalInfo" name="message" class="form-field__textarea" placeholder=" "></textarea>
                                                         <label for="additionalInfo" class="form-field__label">Send me a message!</label>
                                                         <div class="form-field__bar"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="submit" class="btn submitForm">Send</button>
-                                    </form>
+                                         <input type="hidden" name="_subject" value="Contact form submitted">
+                                        <input type="hidden" name="_after" value="https://index.html/">
+                                        <input type="hidden" name="_honeypot" value="">
+                                          <input type="hidden" name="_confirmation" value="Thank you!">
+                                        <button type="submit" value="send" class="btn submitForm">Send</button>
+                                    </form> -->
                                 </div>
                             </div>
                         </div>
@@ -110,34 +113,29 @@
             <div class="col-3"></div>
         </div>
     </section>
-    <footer class="pt-5 footer mt-auto py-3">
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2">
-                    </div>
-                    <div class="col-8 text-center">
-                        © 2021 Ashley Smith, All rights reserved
-                    </div>
-                    <div class="col-2">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                    </div>
-                    <div class="col-4 text-center p-3">
-                        <a class="socialLinks px-2" href="https://twitter.com/code_with_me" title="View Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="socialLinks px-2" href="https://www.instagram.com/digital_artxash/?hl=en" title="View Instragram"><i class="fab fa-instagram"></i></a>
-                        <a class="socialLinks px-2" href="https://github.com/ashley2" title="View Github"><i class="fab fa-github-square"></i></a>
-                        <a class="socialLinks px-2" href="https://www.facebook.com/DigitalArtXAsh" title="View Github"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                    <div class="col-4">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <footer id="footer"></footer>
+   <!--  <style type="text/css">
+    .formBuilder .powr-mark-separator {
+        visibility: hidden !important;
+    }
+
+
+    .formBuilder hr {
+        visibility: hidden !important;
+    }
+
+    .afterSubmissionMessage-powrMark .js-afterSubmissionMessage-powrMark {
+        visibility: hidden !important;
+    }
+
+    .powr-mark-separator {
+        visibility: hidden !important;
+    }
+
+    .hid .js-afterSubmissionForm-toggle .afterSubmissionContainer {
+        margin: 20%
+    }
+    </style> -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
@@ -147,6 +145,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
     <script src="contact.js"></script>
+    <script>
+    // function removeForm() {
+    //     $('hr.formBuilder.powr-mark-separator').remove();
+    //     $('.formBuilder hr').remove()
+    //     $('.blog js-powrMark powrMark').remove();
+
+
+    //     $('#form-watermark-edit-on-click').remove();
+    // }
+
+    $(document).ready(function() {
+        /*! Fades in page on load */
+        $('body').css('display', 'none').fadeIn(700);
+        console.log('fade')
+    })
+    </script>
 </body>
 
 </html>
