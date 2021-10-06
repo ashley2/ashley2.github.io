@@ -11184,28 +11184,36 @@ footer {
   opacity: 1;
 }
 
-.ipadImg {
-  background-image: url(/content/images/ipad.png);
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: contain;
-  min-height: 45rem;
-  margin-top: -32rem;
-}
-
-.text-col {
-  margin-top: 20rem;
-}
-
-.slide2, .slide3, .slide4 {
-  margin-top: -3.125rem;
-}
-
 .slides {
+  font-size: 30px;
+  color: black;
   opacity: 0;
-  z-index: 5;
+}
+
+.view {
+  left: 40%;
+  top: 50%;
+}
+
+.ipads {
+  height: 100vh;
+}
+
+.ipad {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.ipadRight {
+  position: absolute;
+  margin-left: 5rem;
+  z-index: 2;
+}
+
+.ipadLeft {
+  position: absolute;
+  margin-top: -24px;
+  z-index: 1;
 }
 
 .welcomeHero {

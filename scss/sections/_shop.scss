@@ -1,71 +1,66 @@
 $imgpath: /content/images;
 
 
-
-.ipadImg {
-  background-image: url(#{$imgpath}/ipad.png);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain;
-  min-height: 45rem;
-    margin-top: -32rem;
-
-    // z-index: 1;
-}
-
-.text-col {
-    margin-top: 20rem;
-
-
-}
-
 .slide2, .slide3, .slide4 {
-  margin-top: -3.125rem;
+  // margin-top: -3.125rem;
 }
 .slides {
-    opacity: 0;
-        z-index: 5;
+  font-size: 30px;
+color:black;
+opacity: 0;
    
 }
 
-// .slideImg1{
-//   background-image: url(#{$imgpath}/fiver.png);
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: contain;
-//      min-height: 25rem;
-//     margin-top: -11rem;
-// }
-// .slideImg2 {
-//   background-image: url(#{$imgpath}/etsy.png);
-//        min-height: 25rem;
-//     margin-top: -29rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: contain;
+.view {
+  left: 40%;
+top: 50%;
+// transform: translate(-50%, -50%);
+}
 
+.ipads {
+height: 100vh;
+}
+
+.ipad{
+  max-height: 500px;
+  max-width: 500px;
+   
+}
+
+// .ipadRight{
+// z-index: 1;
 // }
 
-// .slideImg3 {
-//   background-image: url(#{$imgpath}/fiver.png);
-//     height: 25rem;
-//     margin-top: -29rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: cover;
+// .ipadLeft {
+// z-index: 2;
 
 // }
 
-// .slideImg4 {
-//   background-image: url(#{$imgpath}/etsy.png);
-//     height: 25rem;
-//     margin-top: -29rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: cover;
+.ipadRight
+    {
+      position:absolute;
+      margin-left: 5rem;
+      // top: 10px;
+      // left: 10px;
+      z-index: 2;
+    }
+    .ipadLeft
+    {
+      position:absolute;
+     margin-top: -24px;
+      // top: 25px;
+      // left: 25px;
+      z-index: 1;
+    }
 
+// .ipadRow {
+// // left: 40%;
+// top: 50%;
+// transform: translate(-50%, -50%);
 // }
-
+// .intro{
+//   height: 100vh;
+// }
 
 // .imgCont {
 //   position: relative;
