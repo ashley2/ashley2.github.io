@@ -2,8 +2,8 @@
 	{
 		"header":"BRAND KIT",
 		"text": "Brand kit package example including logos, banners, typograhpy, colors and social media kit",
-		"image1":"content/images/brandKit.png",
-		"image2": "content/images/brandKit.png",
+		"image1":"content/images/brandKit.PNG",
+		"image2": "content/images/brandKit.PNG",
 		"modalTitle": "BRAND KIT",
 		"cardNum": "cards3",
 		"uniqueId": "card3a"
