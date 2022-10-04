@@ -10789,27 +10789,87 @@ textarea.form-control-lg {
   }
 }
 
+.ipad {
+  width: calc(5.625rem + 52.5vw);
+}
+@media (min-width: 1200px) {
+  .ipad {
+    width: 45rem;
+  }
+}
+
+.ipadTxt {
+  font-size: 1.2rem !important;
+}
+
+.slides {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+@media (min-width: 1200px) {
+  .slides {
+    font-size: 3rem !important;
+  }
+}
+
+.ipadRight {
+  margin-left: calc(3.625rem + 28.5vw) !important;
+}
+@media (min-width: 1200px) {
+  .ipadRight {
+    margin-left: 25rem !important;
+  }
+}
+
+.rowStart {
+  margin-left: -0.5rem !important;
+}
+
 @media (max-width: 575.98px) {
   .copywrite {
     font-size: 8px;
+  }
+
+  .rowStart {
+    margin-left: calc(-2.625rem - 16.5vw) !important;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 1200px) {
+  .rowStart {
+    margin-left: -15rem !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .copywrite {
     font-size: 10px;
   }
-}
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  img.shopLogo {
-    left: 50% !important;
-    margin-left: -512px;
-    /* 50% */
+
+  .rowStart {
+    margin-left: calc(-2.125rem - 10.5vw) !important;
   }
 }
-@media (max-width: 575.98px) {
-  img.shopLogo {
-    left: -24%;
-    top: 7%;
+@media (min-width: 576px) and (max-width: 767.98px) and (min-width: 1200px) {
+  .rowStart {
+    margin-left: -10rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .rowStart {
+    margin-left: calc(-1.625rem - 4.5vw) !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) and (min-width: 1200px) {
+  .rowStart {
+    margin-left: -5rem !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .rowStart {
+    margin-left: calc(2.125rem + 10.5vw) !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) and (min-width: 1200px) {
+  .rowStart {
+    margin-left: 10rem !important;
   }
 }
 @font-face {
@@ -10887,6 +10947,10 @@ p.text {
   font-family: "didot";
 }
 
+.topText {
+  margin-top: -30rem !important;
+}
+
 .fade-in-text {
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
@@ -10944,6 +11008,10 @@ hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, rgba(221, 134, 114, 0), rgba(221, 134, 114, 0.75), rgba(221, 134, 114, 0));
+}
+
+.spacer {
+  height: 30px;
 }
 
 .illustrationHero {
@@ -11184,29 +11252,31 @@ footer {
   opacity: 1;
 }
 
-.slides {
-  font-size: 30px;
-  color: black;
-  opacity: 0;
-}
-
-.view {
-  left: 40%;
-  top: 50%;
+.shopImg {
+  background: url(/content/images/daxaLogo.png);
 }
 
 .ipads {
-  height: 100vh;
+  height: 200vh;
 }
 
-.ipad {
-  max-height: 500px;
-  max-width: 500px;
+.ipadTextLeft,
+.ipadTextRight {
+  margin-top: 20%;
+  opacity: 0;
+}
+
+.section1 {
+  height: 120vh;
+  background-color: #d4d0bc;
+}
+
+.pinSpacer {
+  height: 100px;
 }
 
 .ipadRight {
   position: absolute;
-  margin-left: 5rem;
   z-index: 2;
 }
 
@@ -11214,6 +11284,10 @@ footer {
   position: absolute;
   margin-top: -24px;
   z-index: 1;
+}
+
+.pin-spacer {
+  height: 0px !important;
 }
 
 .welcomeHero {

@@ -55,10 +55,37 @@
 //      @include font-size(1rem !important);
 // }
 
+.ipad {
+    @include rfs(45rem, width);
+}
+
+.ipadTxt {
+    @include font-size(1.2rem !important);
+}
+
+.slides {
+    @include font-size(3rem !important);
+}
+
+
+.ipadRight {
+@include margin-left(25rem !important);
+}
+
+.rowStart {
+     @include margin-left(-.5rem !important); 
+    // margin-left: 2%;
+}
 
 @include media-breakpoint-between(xs, sm) {
+   
+
     .copywrite {
         font-size: 8px;
+    }
+
+    .rowStart {
+        @include margin-left(-15rem !important);
     }
 }
 
@@ -66,24 +93,27 @@
     .copywrite {
         font-size: 10px;
     }
-}
 
-// @media screen and (max-width: 1024px) { /* Specific to this particular image */
-//   img.shopLogo {
-//     left: 50%;
-//     margin-left: -512px;   /* 50% */
-//   }
-// }
-@include media-breakpoint-between(md, xl) {
-     img.shopLogo {
-    left: 50% !important;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
-@include media-breakpoint-between(xs, sm) {
-    img.shopLogo {
-        left: -24%;
-        top: 7%;
+    .rowStart {
+        @include margin-left(-10rem !important);
     }
 }
+
+@include media-breakpoint-between(md, lg) {
+  
+
+    .rowStart {
+        @include margin-left(-5rem !important);
+        // margin-left: 2%;
+    }
+
+
+}
+
+@include media-breakpoint-between(lg, xl) {
+     .rowStart {
+        @include margin-left(10rem !important);
+        // margin-left: 2%;
+    }
+}
+

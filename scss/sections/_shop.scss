@@ -1,31 +1,36 @@
 $imgpath: /content/images;
 
 
-.slide2, .slide3, .slide4 {
-  // margin-top: -3.125rem;
-}
-.slides {
-  font-size: 30px;
-color:black;
-opacity: 0;
-   
-}
+// .slides {
+//     // font-size: 3rem;
+//     // opacity: 0;
 
-.view {
-  left: 40%;
-top: 50%;
-// transform: translate(-50%, -50%);
+// }
+
+.shopImg{
+     background: url(#{$imgpath}/daxaLogo.png);
 }
 
 .ipads {
-height: 100vh;
+    height: 200vh;
+    // background-color: #F0A195;
 }
 
-.ipad{
-  max-height: 500px;
-  max-width: 500px;
-   
+// .ipad {
+//     max-height: 45rem;
+//     max-width: 45rem;
+// }
+
+.ipadTextLeft,
+.ipadTextRight {
+    margin-top: 20%;
+    opacity: 0;
+  
 }
+
+// .rowStart {
+//     margin-left: 2%;
+// }
 
 // .ipadRight{
 // z-index: 1;
@@ -35,24 +40,36 @@ height: 100vh;
 // z-index: 2;
 
 // }
+.section1 {
+    height: 120vh;
+    background-color: #d4d0bc;
 
-.ipadRight
-    {
-      position:absolute;
-      margin-left: 5rem;
-      // top: 10px;
-      // left: 10px;
-      z-index: 2;
-    }
-    .ipadLeft
-    {
-      position:absolute;
-     margin-top: -24px;
-      // top: 25px;
-      // left: 25px;
-      z-index: 1;
-    }
+}
 
+.pinSpacer {
+    height: 100px;
+}
+
+
+.ipadRight {
+    position: absolute;
+    // margin-left: 25rem;
+    // top: 10px;
+    // left: 10px;
+    z-index: 2;
+}
+
+.ipadLeft {
+    position: absolute;
+    margin-top: -24px;
+    // top: 25px;
+    // left: 25px;
+    z-index: 1;
+}
+
+.pin-spacer {
+    height: 0px !important;
+}
 // .ipadRow {
 // // left: 40%;
 // top: 50%;
