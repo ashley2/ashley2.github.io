@@ -1,3 +1,13 @@
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./../../node_modules/bootstrap/scss/_functions.scss";
+
+@import "./../../node_modules/bootstrap/scss/_variables.scss";
+
+@import "./../../node_modules/bootstrap/scss/_mixins";
+
+@import "./../../node_modules/bootstrap/scss/_utilities.scss";
+@import "./../../node_modules/rfs/scss.scss";
+node_modules/rfs/scss.scss
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 @font-face {
@@ -57,6 +67,11 @@ h3 {
     .welcomeSub {
         font-size: 1.5rem;
     }
+    @include media-breakpoint-down(sm) {
+    .welcomeSub {
+        @include font-size(1rem !important);
+    }
+}
 }
 
 

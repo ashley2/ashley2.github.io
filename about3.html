@@ -16,7 +16,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
-    $(".navbar").load("navbar.html");
         $("#footer").load("footer.html");
     });
     </script>
@@ -24,26 +23,50 @@
 <body class="d-flex flex-column min-vh-100">
     <!-- navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light bg-transparent ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="/index.html">home</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page" href="/about.html">about</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="/work.html">work</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="/shop.html">digital artXash </a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="/contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <section class="illustrationHero hero">
     </section>
     <section class="content">
         <!-- <section class="welcomeSection"> -->
-        <div class="container aboutCont pb-5">
+        <div class="container pb-5">
             <div class="row pinTrigger">
                 <div class="col-md-6 fixed">
                     <h2 class="welcome fade-in-text text-center fade-in-text my-2 trigger1">About</h2>
                     <!-- <div class="outer"> -->
-                    <img src="content/images/aboutashley.JPG" class=" img-fluid img-responsive rounded mx-auto d-block ashleyImg animate pb-5 fade-in-text" alt="image of girl">
+                    <img src="content/images/aboutashley.JPG" class="img-fluid img-responsive rounded d-block ashleyImg animate pb-5" alt="image of girl">
                     <!-- <div class="overlay">animate__animated animate__slideInLeft animate__slower</div> -->
                     <!-- </div> -->
                 </div>
                 <div class="col-md-6">
-                    <section class="scroll-trigger-about text-dark">
-                        <p class="p1 pAnimate fade-in-text">Art and technogoloy have always been interests of mine. It was only a matter of time before combining these two things would turn passions into a career.</p>
-                        <p class="p2 pAnimate fade-in-text"> Web Design & Development | Mock-ups & Wireframes | Graphic Design & Art</p>
-                        <p class="p3 pAnimate fade-in-text">Some of my favorite technology: Javascript, CSS, SASS, JQuery, Node, Angular, React Photoshop, AdobeXD, Procreate and the list continues.</p>
-                        <p class="p4 pAnimate fade-in-text">I also love exploring animation, photography, video editing and social media. If you have a project in mind I would love to help make it become a reality!</p>
+                    <section class="scroll-trigger-about text-dark  ">
+                        <p class="p1">Art and technogoloy have always been interests of mine. It was only a matter of time before combining these two things would turn passions into a career.</p>
+                        <p class="p2"> Web Design & Development | Mock-ups & Wireframes | Graphic Design & Art</p>
+                        <p class="p3">Some of my favorite technology: Javascript, CSS, SASS, JQuery, Node, Angular, Photoshop, XD, Procreate and the list continues.</p>
+                        <p class="p4">I also love exploring photography, video editing and social media. If you have a project in mind I would love to help make it become a reality! Shoot me a message!</p>
                     </section>
                 </div>
             </div>

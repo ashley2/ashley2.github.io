@@ -12,6 +12,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
+         $(".navbar").load("navbar.html");
         $("#footer").load("footer.html");
 
     });
@@ -19,30 +20,6 @@
 
 <body id="contactBody" onload="removeForm()">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-transparent mb-5">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-center" href="/index.html">home</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/about.html">about</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/work.html">work</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/shop.html">digital artXash </a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link active" aria-current="page" href="/contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </nav>
     <section class="contactFormCont animation">
         <!--     <section class="animation">

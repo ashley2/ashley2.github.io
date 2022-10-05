@@ -33,6 +33,10 @@
 
 
 // }
+// .scroll-trigger-about {
+//  @include font-size(.9375rem !important);
+
+// }
 
 .sliderContent,
 .aboutText {
@@ -44,16 +48,10 @@
 }
 
 .socialLinks {
-    @include font-size(2rem !important);
+    @include font-size(1rem !important);
 }
 
-// .copywrite {
-//      @include font-size(2rem !important);
-// }
 
-// .scroll-trigger-about{
-//      @include font-size(1rem !important);
-// }
 
 .ipad {
     @include rfs(45rem, width);
@@ -69,19 +67,19 @@
 
 
 .ipadRight {
-@include margin-left(25rem !important);
+    @include margin-left(25rem !important);
 }
 
 .rowStart {
-     @include margin-left(-.5rem !important); 
+    @include margin-left(-.5rem !important);
     // margin-left: 2%;
 }
 
 @include media-breakpoint-between(xs, sm) {
-   
+
 
     .copywrite {
-        font-size: 8px;
+        font-size: 0.7rem;
     }
 
     .rowStart {
@@ -91,29 +89,71 @@
 
 @include media-breakpoint-between(sm, md) {
     .copywrite {
-        font-size: 10px;
+        // font-size: 10px;
     }
 
     .rowStart {
         @include margin-left(-10rem !important);
     }
+
+    .illustrationHero {
+        height: 100vh;
+    }
+
+    .scroll-trigger-about {
+        @include font-size(.5rem);
+        @include margin-top(65%);
+    }
+
 }
 
 @include media-breakpoint-between(md, lg) {
-  
+
 
     .rowStart {
         @include margin-left(-5rem !important);
         // margin-left: 2%;
     }
 
+    .scroll-trigger-about {
+        @include font-size(.7rem);
+        @include margin-top(54%);
+
+    }
+
 
 }
 
 @include media-breakpoint-between(lg, xl) {
-     .rowStart {
+    .rowStart {
         @include margin-left(10rem !important);
         // margin-left: 2%;
     }
+
+    .scroll-trigger-about {
+        @include font-size(.9rem);
+        @include margin-top(47%);
+    }
 }
 
+@include media-breakpoint-up(xl) {
+    .scroll-trigger-about {
+        @include margin-top(40%);
+    }
+}
+@include media-breakpoint-down(lg) {
+    .welcome  {
+        @include font-size(7rem);
+    }
+}
+@include media-breakpoint-down(sm) {
+    .welcomeSub {
+        @include font-size(1rem !important);
+    }
+}
+
+// @include media-breakpoint-down(1000px) {
+//     .scroll-trigger-about {
+//         @include font-size(.7rem);
+//     }
+// }
