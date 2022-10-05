@@ -10736,36 +10736,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.signature {
-  font-size: calc(2.425rem + 14.1vw) !important;
-  margin-top: calc(2.125rem + 10.5vw) !important;
-}
-@media (min-width: 1200px) {
-  .signature {
-    font-size: 13rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .signature {
-    margin-top: 10rem !important;
-  }
-}
-
-.tagline {
-  font-size: calc(1.525rem + 3.3vw) !important;
-  margin-top: calc(-1.575rem - 3.9vw) !important;
-}
-@media (min-width: 1200px) {
-  .tagline {
-    font-size: 4rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .tagline {
-    margin-top: -4.5rem !important;
-  }
-}
-
 .sliderContent,
 .aboutText {
   font-size: calc(1.325rem + 0.9vw) !important;
@@ -21676,11 +21646,6 @@ h3, .h3 {
 .welcomeSection .welcomeSub {
   font-size: 1.5rem;
 }
-@media (max-width: 575.98px) {
-  .welcomeSection .welcomeSub {
-    font-size: 1rem !important;
-  }
-}
 
 .card-body {
   color: #dd8672;
@@ -21720,6 +21685,45 @@ p.text {
   margin-top: -30rem !important;
 }
 
+.signature {
+  font-size: calc(2.425rem + 14.1vw);
+  margin-top: calc(2.125rem + 10.5vw);
+}
+@media (min-width: 1200px) {
+  .signature {
+    font-size: 13rem;
+  }
+}
+@media (min-width: 1200px) {
+  .signature {
+    margin-top: 10rem;
+  }
+}
+
+.tagline {
+  font-size: calc(1.525rem + 3.3vw) !important;
+  margin-top: calc(-1.575rem - 3.9vw) !important;
+}
+@media (min-width: 1200px) {
+  .tagline {
+    font-size: 4rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .tagline {
+    margin-top: -4.5rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .welcomeSub {
+    font-size: 1rem !important;
+  }
+
+  .signature {
+    margin-top: 70%;
+  }
+}
 .fade-in-text {
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;

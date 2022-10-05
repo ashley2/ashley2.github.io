@@ -54,6 +54,7 @@ h3 {
     // margin-top: 10rem;
 }
 
+
 .tagline {
     font-family: $font-tagline;
     // font-size: 4rem;
@@ -67,12 +68,7 @@ h3 {
     .welcomeSub {
         font-size: 1.5rem;
     }
-    @include media-breakpoint-down(sm) {
-    .welcomeSub {
-        @include font-size(1rem !important);
-    }
-}
-}
+ }
 
 
 // work
@@ -130,6 +126,23 @@ p.text {
     margin-top: -30rem !important;
 }
 
-// .shopTitle{
-//   margin-top: 15rem;
-// }
+.signature {
+    @include font-size(13rem);
+    @include margin-top(10rem);
+
+}
+
+.tagline {
+    @include font-size(4rem !important);
+    @include margin-top(-4.5rem !important);
+}
+
+   @include media-breakpoint-down(sm) {
+    .welcomeSub {
+        @include font-size(1rem !important);
+    }
+    .signature {
+         @include margin-top(70%);
+    }
+}
+
