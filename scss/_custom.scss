@@ -141,6 +141,10 @@
     .welcomeSub {
         @include font-size(1rem !important);
     }
+    #navMain {
+         @include padding-bottom(100%);
+
+    }
 }
 
 // @include media-breakpoint-down(1000px) {

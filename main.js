@@ -1,3 +1,4 @@
+'use strict'
 // $('.parallax-window').parallax({
 //     naturalWidth: 600,
 //     naturalHeight: 400
@@ -16,6 +17,7 @@
 // });
 
 $(document).ready(function() {
+  
 
     // home parallax animation 
     $(window).scroll(function(e) {
@@ -31,16 +33,22 @@ $(document).ready(function() {
     };
 
 
-
-    $('.navbar').click(function() {
-        console.log('click')
-        if ($('#navbarNav').hasClass('show')) {
-            console.log('yes')
-            $('.navbar').addClass('openNav')
-        } else {
-console.log('no')
-        }
-
-    })
-
+ 
 });
+
+function navFunction() {
+    console.log('test')
+    $('#navMain').toggleClass('bg-transparent navbar-dark navbar-light')
+    $('#overlay').toggleClass('overlay')
+    $('body').toggleClass('stop-scrolling')
+
+}
+
+
+// function on() {
+//   document.getElementById("overlay").style.display = "block";
+// }
+
+// function off() {
+//   document.getElementById("overlay").style.display = "none";
+// }

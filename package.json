@@ -20,7 +20,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "animate.css": "^4.1.1",
     "autoprefixer": "^10.2.6",
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.2.2",
     "postcss-cli": "^8.3.1",
     "rfs": "^9.0.5"
   },
