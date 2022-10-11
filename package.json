@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/ashley2/aboutashley#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "animate.css": "^4.1.1",
-    "autoprefixer": "^10.2.6",
+    "autoprefixer": "^10.4.12",
     "bootstrap": "^5.2.2",
     "postcss-cli": "^8.3.1",
-    "rfs": "^9.0.5"
+    "rfs": "^9.0.6"
   },
   "devDependencies": {
-    "sass": "^1.35.0"
+    "sass": "^1.55.0"
   }
 }
