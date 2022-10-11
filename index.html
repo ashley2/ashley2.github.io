@@ -22,7 +22,9 @@
             $(".navbarCont").load("navbar.html");
            $('#homeLink').addClass('active');
             setTimeout(function() { 
-          $('#homeLink').addClass('active');
+          $('#homeLink').addClass('active')
+         $('#homeLink').attr("aria-current", "page");  
+
     }, 500);
 
 

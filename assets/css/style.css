@@ -22018,6 +22018,11 @@ footer {
   background-color: #dd8672;
 }
 
+.panelContainer {
+  overflow: hidden;
+  margin-left: -2rem;
+}
+
 .column {
   margin-top: 3rem;
   padding-left: 3rem;

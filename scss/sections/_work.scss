@@ -22,11 +22,13 @@ $imgpath: /content/images;
     background-color: $secondaryColor;
 }
 
-// .panelContainer {
-//     max-height: 100vh;
-//     overflow-y: scroll;
-//     // scroll-snap-type: y mandatory;
-// }
+.panelContainer {
+    // max-height: 100vh;
+    overflow: hidden;
+    margin-left:-2rem;
+    // overflow-y: scroll;
+    // scroll-snap-type: y mandatory;
+}
 
 .column {
     margin-top: 3rem;
