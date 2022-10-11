@@ -48,7 +48,7 @@
                             <li><a class="dropdown-item" href="#panelFour">Digital Art</a></li>
                         </ul>
                     </li>
-                   <!--  <li class="nav-item text-center">
+                    <!--  <li class="nav-item text-center">
                         <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li> -->
                     <li class="nav-item text-center">
@@ -58,6 +58,7 @@
             </div>
         </div>
     </nav>
+    <div id="overlay"></div>
     <div class="panelContainer">
         <section id="panelOne" class="panel panelOne mb-5">
             <div class="container ">
@@ -96,8 +97,15 @@
     $(document).ready(function() {
         /*! Fades in page on load */
         $('body').css('display', 'none').fadeIn(700);
-        console.log('fade')
+
     })
+    // $('.nav-item').each(function(i) {
+    //     if ('.nav-item').hasClass('active') {
+
+    //     }
+    //   });
+
+
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
@@ -110,6 +118,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
     <script src="work.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

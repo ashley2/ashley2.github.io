@@ -19,6 +19,10 @@
     $(function() {
         $(".navbarCont").load("navbar.html");
         $("#footer").load("footer.html");
+         setTimeout(function() { 
+        $('#aboutLink').addClass('active')
+    }, 500);
+
     });
     </script>
 
@@ -67,7 +71,6 @@
             $(document).ready(function() {
 /*! Fades in page on load */
 $('body').css('display', 'none').fadeIn(700);
-console.log('fade')
 })
         </script>
 </body>

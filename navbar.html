@@ -6,10 +6,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-center active" aria-current="page" href="/index.html">home</a>
+                    <a class="nav-link text-center" id="homeLink" href="/index.html">home</a>
                 </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="/about.html">about</a>
+                <li class="nav-item text-center" >
+                    <a class="nav-link" id="aboutLink" href="/about.html">about</a>
                 </li>
                 <li class="nav-item text-center">
                     <a class="nav-link" href="/work.html">work</a>
@@ -17,12 +17,29 @@
                 <!--    <li class="nav-item text-center">
                         <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li> -->
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="/contact.html">contact</a>
+                <li class="nav-item text-center" >
+                    <a class="nav-link" id="contactLink" href="/contact.html">contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
 <div id="overlay"></div>
+<script>
+$(document).ready(function() {
+    // var pathname = window.location.pathname.slice(1).toString()
+    //     pages = ['index', 'about', 'work', 'contact'];
+
+    // $('.nav-item').each(function(i) {
+    //     console.log(pathname.type())
+    //     if (pathname.includes(pages[i])) {
+    //         console.log($(this))
+    //         $(this).addClass('active');
+    //                 console.log($(this))
+
+    //     } else if ($(this).className.includes('active')) {
+    //         $(this).removeClass('active');
+    //     } 
+    // });
+});
+</script>

@@ -136,6 +136,9 @@
     .welcome  {
         @include font-size(7rem);
     }
+    .illustrationHero {
+       background-position: center !important;
+    }
 }
 @include media-breakpoint-down(sm) {
     .welcomeSub {

@@ -10877,6 +10877,11 @@ textarea.form-control-lg {
     font-size: 7rem;
   }
 }
+@media (max-width: 991.98px) {
+  .illustrationHero {
+    background-position: center !important;
+  }
+}
 @media (max-width: 575.98px) {
   .welcomeSub {
     font-size: 1rem !important;

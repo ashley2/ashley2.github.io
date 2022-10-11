@@ -18,6 +18,10 @@
 
 $(document).ready(function() {
   
+   // setTimeout(function() { 
+   //        $('#homeLink').addClass('active');
+   //  }, 500);
+
 
     // home parallax animation 
     $(window).scroll(function(e) {
@@ -37,7 +41,6 @@ $(document).ready(function() {
 });
 
 function navFunction() {
-    console.log('test')
     $('#navMain').toggleClass('bg-transparent navbar-dark navbar-light')
     $('#overlay').toggleClass('overlay')
     $('body').toggleClass('stop-scrolling')

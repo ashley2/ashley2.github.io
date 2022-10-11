@@ -17,8 +17,15 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
+        console.log('ffgrg')
            $("#footer").load("footer.html");
             $(".navbarCont").load("navbar.html");
+           $('#homeLink').addClass('active');
+            setTimeout(function() { 
+          $('#homeLink').addClass('active');
+    }, 500);
+
+
         });
         </script>
 
@@ -56,23 +63,18 @@
                 </div>
             </div>
         </section>
-        <footer id="footer"></footer>       
+        <footer id="footer"></footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
         <script src="index.js"></script>
         <script src="main.js"></script>
         <script type="text/javascript">
-            
-            $(document).ready(function() {
-/*! Fades in page on load */
-$('body').css('display', 'none').fadeIn(700);
-console.log('fade')
-})
-
- 
+        $(document).ready(function() {
+            /*! Fades in page on load */
+            $('body').css('display', 'none').fadeIn(700);
+                 });
         </script>
 </body>
 
 </html>
-
