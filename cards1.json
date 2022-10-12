@@ -10,7 +10,7 @@
 	},
 	{
 		"header":"Tracking Accountability in </br>Government Grants System",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present. Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
+		"text": "Government Grants System to track database of grants awarded by the eleven Operating Divisions. Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/taggsgif.gif",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
@@ -19,12 +19,21 @@
 
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATIONS",
-		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-Present",
+		"header":"TAGGS BACKOFFICE</br>APPLICATION",
+		"text": "Private client side dashboard to keep track of the data and trends Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/annualReportImg.png",
-		"modalTitle": "ANNUAL REPORT",
+		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
 		"cardNum": "cards1",
 		"uniqueId": "card1c"
+	},
+	{
+		"header":"HHS ANNUAL </br> REPORT PDF",
+		"text": "AR Accessible PDF Summary Sample Page - Tools: InDesign",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/arpdf.jpg",
+		"modalTitle": "HHS ANNUAL REPORT PDF Sample page",
+		"cardNum": "cards1",
+		"uniqueId": "card1d"
 	}
 ]

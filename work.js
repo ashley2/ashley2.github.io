@@ -26,10 +26,13 @@
                         // uniqueId += 1;
                         uniqueId = cardData[item].uniqueId;
                         // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img" src=" ${image2} "></div></div></div> <div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">${modalTitle}</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img class="modalImage img-responsive" src="${image2}" alt="gif"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>`;
-                        let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img" src=" ${image2} "></div></div></div> <div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"></div></div>`;
+                        // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img img-fluid" src=" ${image2} "></div></div></div> <div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><h5 class="modal-title">${modalTitle}</h5><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"><div class="modal-footer">${text}</div></div></div>`;
+ let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p></div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img img-fluid" src="${image2}"></div></div></div><div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><h5 class="modal-title">${modalTitle}</h5><div>${text}</div><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"></div></div></div>`;
 
                         // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img" src=" ${image2} "></div></div></div>`;
                         // let modal = `<div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">${modalTitle}</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img src="${image2}" alt="gif"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>`
+
+
                         switch (cardNum) {
                             case 'cards1':
                                 $("#cardRow1").append(card);
@@ -69,7 +72,7 @@
                 }
             });
 
-        }
+        };
 
         const portfolioController = new ScrollMagic.Controller()
         // $(".animate").each(function() {
@@ -111,10 +114,7 @@
 
 
 
-$('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li></ul></li>')
-// $('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li></ul></li>')
-    
-
+        $('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li></ul></li>')
 
 
 

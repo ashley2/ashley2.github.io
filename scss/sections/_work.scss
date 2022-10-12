@@ -59,6 +59,13 @@ $imgpath: /content/images;
         }
     }
 }
+.cardImg {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .card.pointer{
     min-height: 170px;
@@ -115,6 +122,11 @@ $imgpath: /content/images;
 
 .cardTxt {
   z-index: 1;
+}
+
+.modal-content {
+    border: none;
+    background-color: rgb(255 255 255 / 0%);
 }
 
 .pointer {
