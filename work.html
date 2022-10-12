@@ -13,52 +13,32 @@
     <link rel="stylesheet" href="node_modules/%40fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <style>
+
+    #navMain {
+         padding-bottom: 0px;
+    }
+
+        </style>
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $(function() {
+  $(function() {
+        $(".navbarCont").load("navbar.html");
         $("#footer").load("footer.html");
+         setTimeout(function() { 
+        // $('#portfolioDropDown').addClass('active')
+        // $('#portfolioDropDown').attr("aria-current", "page");  
+
+    }, 500);
+
     });
     </script>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent sticky">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-center" href="/index.html">home</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/about.html">about</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
-                            work
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="portfolioDropDown">
-                            <li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li>
-                            <li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li>
-                            <!-- <li><hr class="dropdown-divider"></li> -->
-                            <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li>
-                            <li><a class="dropdown-item" href="#panelFour">Digital Art</a></li>
-                        </ul>
-                    </li>
-                    <!--  <li class="nav-item text-center">
-                        <a class="nav-link" href="/shop.html">digital artXash </a>
-                    </li> -->
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="/contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div id="overlay"></div>
+      <div class="navbarCont">
+    </div>
     <div class="panelContainer">
         <section id="panelOne" class="panel panelOne mb-5">
             <div class="container ">

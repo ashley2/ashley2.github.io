@@ -111,22 +111,11 @@
 
 
 
-        // gsap.registerPlugin(ScrollTrigger);
-
-        //    gsap.utils.toArray(".panel").forEach((panel, i) => {
-        //        ScrollTrigger.create({
-        //            trigger: panel,
-        //            start: "top top",
-        //            pin: true,
-        //            pinSpacing: false
-        //        });
-        //    });
+$('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li></ul></li>')
+// $('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li></ul></li>')
+    
 
 
-        //    ScrollTrigger.create({
-        //        snap: 1 / 4 // snap whole page to the closest section!
-        //    });
-        // end portfolio
 
 
     });
