@@ -1,0 +1,20 @@
+[
+	{
+		"header":"Neon Babes Filter",
+		"text": "Custom filter - Tools: SparkAR, Procreate",
+		"image1":"content/images/annualReportImg.png",
+		"image2": "content/images/neonbabes.gif",
+		"modalTitle": "Neon Babes Filter",
+		"cardNum": "cards5",
+		"uniqueId": "card5a"
+	},
+	{
+		"header":"HBD Polaroid Filter",
+		"text": "Custom birthday filter - Tools: SparkAR, Procreate",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/hbd.gif",
+		"modalTitle": "HBD Polaroid Filter",
+		"cardNum": "cards5",
+		"uniqueId": "card5b"
+	}
+]

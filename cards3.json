@@ -13,7 +13,7 @@
 		"text": "Poster, logo, and social media posts created for a mock party event",
 		"image1":"content/images/quinchella.png",
 		"image2":"content/images/quinnchella.png",
-		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
+		"modalTitle": "Party designs",
 		"cardNum": "cards3",
 		"uniqueId": "card3b"
 	},
@@ -22,7 +22,7 @@
 		"text": "These are some examples of logos I have created based on clients requirements.",
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/logoExamples.png",
-		"modalTitle": "ANNUAL REPORT",
+		"modalTitle": "Logo Examples",
 		"cardNum": "cards3",
 		"uniqueId": "card3c"
 	},
@@ -31,7 +31,7 @@
 		"text": "Event poster and logo creation for digital and print",
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"content/images/birthdayposter.png",
-		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
+		"modalTitle": "Event Poster",
 		"cardNum": "cards3",
 		"uniqueId": "card3d"
 	}

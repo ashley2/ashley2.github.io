@@ -6,7 +6,7 @@ $imgpath: /content/images;
     // scroll-snap-align: start;
 }
 
-.panelOne {
+.panelOne,  .panelFive {
     background-color: white;
 }
 
@@ -124,7 +124,7 @@ $imgpath: /content/images;
   z-index: 1;
 }
 
-.modal-content {
+.workModal.modal-content {
     border: none;
     background-color: rgb(255 255 255 / 0%);
 }
@@ -135,5 +135,12 @@ $imgpath: /content/images;
 
 .static {
   opacity: 1;
+}
+
+
+img[src*="neon"], img[src*="hbd"]  {
+    max-width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
