@@ -3,8 +3,8 @@
 		"header":"iphone and ipad </br> wallpaper patterns",
 		"text": "Original designs used for phone backgrounds sold on my Digital ArtXAsh etsy shop",
 		"image1":"content/images/annualReportImg.png",
-		"image2": "content/images/phoneWallpaper.png",
-		"modalTitle": "ANNUAL REPORT",
+		"image2": "content/images/phoneart.png",
+		"modalTitle": "Phone wallpaper",
 		"cardNum": "cards4",
 		"uniqueId": "card4a"
 	},
@@ -18,13 +18,53 @@
 		"uniqueId": "card4b"
 	},
 	{
+		"header":"Worlds Best Bean ",
+		"text": "Coffee bean art",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/beanart.png",
+		"modalTitle": "Plant Prints",
+		"cardNum": "cards4",
+		"uniqueId": "card4c"
+
+	},
+	{
 		"header":"plant prints",
 		"text": "Plant illustrations </br> for digital or print",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/plantPrints.png",
-		"modalTitle": "ANNUAL REPORT",
+		"image2":"content/images/plantsArt.png",
+		"modalTitle": "Plant Prints",
 		"cardNum": "cards4",
-		"uniqueId": "card4c"
+		"uniqueId": "card4d"
+
+	},
+	{
+		"header":"photoshop art",
+		"text": "a dog rendition of Ninetales",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/kodapokemon.png",
+		"modalTitle": "photoshop art",
+		"cardNum": "cards4",
+		"uniqueId": "card4e"
+
+	},
+	{
+		"header":"Realism",
+		"text": "Monstera art",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/monsteraart.png",
+		"modalTitle": "Realism",
+		"cardNum": "cards4",
+		"uniqueId": "card4f"
+
+	},
+	{
+		"header":"holiday gift tags",
+		"text": "sold on Digital ArtXAsh",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"content/images/christmastags.png",
+		"modalTitle": "Holiday gift tags",
+		"cardNum": "cards4",
+		"uniqueId": "card4g"
 
 	}
 
