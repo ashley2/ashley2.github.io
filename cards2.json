@@ -3,7 +3,7 @@
 		"header":"Website UX </br> Design Mockup",
 		"text": "Mockup and redesign of restaurant website. Tool: Adobe XD",
 		"image1":"content/images/annualReportImg.png",
-		"image2": "content/images/websiteRebrand.png",
+		"image2": "./../content/images/websiteRebrand.png",
 		"modalTitle": "Design Mockups",
 		"cardNum": "cards2",
 		"uniqueId": "card2a"
@@ -12,7 +12,7 @@
 		"header":"iphone and ipad </br>  wallpaper mockups",
 		"text": "Display mockups for online business and marketing",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/iphoneMockup.png",
+		"image2":"./../content/images/iphoneMockup.png",
 		"modalTitle": "iPhone and iPad wallpaper Mockups",
 		"cardNum": "cards2",
 		"uniqueId": "card2b"
@@ -21,7 +21,7 @@
 		"header":"Sticker display </br> mockups",
 		"text": "Product display mockups for online business and marketing.",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/stickerMockups.png",
+		"image2":"./../content/images/stickerMockups.png",
 		"modalTitle": "Sticker Display Mockups",
 		"cardNum": "cards2",
 		"uniqueId": "card2c"

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ashley Smith</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.compat.css">
+    <link rel="stylesheet" href="./../node_modules/animate.css/animate.min.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
-           $("#footer").load("footer.html");
-            $(".navbarCont").load("navbar.html");
+           $("#footer").load("../../footer.html");
+            $(".navbarCont").load("./../navbar.html");
            $('#contactLink').addClass('active');
             setTimeout(function() { 
           $('#contactLink').addClass('active')
@@ -35,13 +35,10 @@
             <div class="col-md-4 col-1"></div>
             <div class="col-md-4 col-10">
                 <div class="row my-2">
-                    <button type="button" tabindex="0" class="contactLinks btn mt-3" onclick="sendMail()">
-                        Email
-                    </button>
+                    <a href="mailto:ashley22@vt.edu" tabindex="0" class="contactLinks mt-3">Send Email</a>
                 </div>
-                 <div class="row my-2">
-                    <a href="content/ashleysmithresume.pdf" tabindex="0" target="_blank" class="contactLinks mt-3" download>Download Resume
-                        <!-- <img src="/images/myw3schoolsimage.jpg" alt="W3Schools"> -->
+                <div class="row my-2">
+                    <a href="./../content/ashleysmithresume.pdf" tabindex="0" target="_blank" class="contactLinks mt-3" download>Download Resume
                     </a>
                 </div>
                 <div class="row my-2">
@@ -50,7 +47,7 @@
                 <div class="row my-2">
                     <a href="https://github.com/ashley-smith2/" tabindex="0" target="_blank" class="contactLinks mt-3">Professional Github</a>
                 </div>
-                 <div class="row my-2">
+                <div class="row my-2">
                     <a href="https://twitter.com/code_with_me" tabindex="0" target="_blank" class="contactLinks mt-3">Twitter</a>
                 </div>
                 <div class="row my-2">
@@ -71,24 +68,15 @@
     </div>
     <footer id="footer"></footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
     <!-- <script src="contact.js"></script> -->
-    <script src="main.js"></script>
+    <script src="./../main.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         /*! Fades in page on load */
         $('body').css('display', 'none').fadeIn(700);
-    });
-
-
-    function sendMail() {
-        var link = "mailto:ashley22@vt.edu" +
-            "&subject=" + escape("This is my subject") +
-            "&body=" + escape(document.getElementById('message').value);
-
-        window.location.href = link;
-    }
+    });ashle
     </script>
 </body>
 

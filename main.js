@@ -34,13 +34,25 @@ function overlayScroll() {
 let pathname = window.location.pathname.slice(1).toString()
 
 function navFunction() {
-    if (pathname === "work.html") {
-        $('#navMain').toggleClass('bg-transparent')
-        overlayScroll();
-    } else {
-        $('#navMain').toggleClass('bg-transparent navbar-dark navbar-light');
-        overlayScroll();
+    console.log(pathname)
+    switch (pathname) {
+        case 'work/':
+            $('#navMain').toggleClass('bg-transparent')
+            overlayScroll();
+            break;
+        case 'contact/':
+            $('#navMain').toggleClass('bg-transparent')
+            overlayScroll();
+            break;
+        case 'about/':
+            $('#navMain').toggleClass('bg-transparent navbar-dark navbar-light');
+            overlayScroll();
+            break;
+        default:
+            $('#navMain').toggleClass('bg-transparent navbar-dark navbar-light');
+            overlayScroll();
     }
+
 
     $('.dropdown-item').click(function() {
         overlayScroll();

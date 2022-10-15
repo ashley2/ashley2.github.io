@@ -133,7 +133,7 @@
     }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
     .dropdown-menu.show      {
         @include margin-left(29%);
        @include  margin-right(29%);

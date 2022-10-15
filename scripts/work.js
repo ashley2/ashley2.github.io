@@ -6,7 +6,7 @@
         var image2;
         var modalTitle;
         var cardNum;
-        var urls = ['cards1.json', 'cards2.json', 'cards3.json', 'cards4.json', 'cards5.json']
+        var urls = ['./../cards1.json', './../cards2.json', './../cards3.json', './../cards4.json', './../cards5.json']
 
         for (let i = 0; i < urls.length; i++) {
             var url = urls[i];

@@ -3,7 +3,7 @@
 		"header":"BRAND KIT",
 		"text": "Brand kit package example including logos, banners, typograhpy, colors and social media kit",
 		"image1":"content/images/brandKit.PNG",
-		"image2": "content/images/brandKit.PNG",
+		"image2": "./../content/images/brandKit.PNG",
 		"modalTitle": "BRAND KIT",
 		"cardNum": "cards3",
 		"uniqueId": "card3a"
@@ -12,7 +12,7 @@
 		"header":"QUINNCHELLA PARTY </br>DESIGNS",
 		"text": "Poster, logo, and social media posts created for a mock party event",
 		"image1":"content/images/quinchella.png",
-		"image2":"content/images/quinnchella.png",
+		"image2":"./../content/images/quinnchella.png",
 		"modalTitle": "Party designs",
 		"cardNum": "cards3",
 		"uniqueId": "card3b"
@@ -21,7 +21,7 @@
 		"header":"Logo </br>Examples",
 		"text": "These are some examples of logos I have created based on clients requirements.",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/logoExamples.png",
+		"image2":"./../content/images/logoExamples.png",
 		"modalTitle": "Logo Examples",
 		"cardNum": "cards3",
 		"uniqueId": "card3c"
@@ -30,7 +30,7 @@
 		"header":"Event </br> poster",
 		"text": "Event poster and logo creation for digital and print",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"content/images/birthdayposter.png",
+		"image2":"./../content/images/birthdayposter.png",
 		"modalTitle": "Event Poster",
 		"cardNum": "cards3",
 		"uniqueId": "card3d"

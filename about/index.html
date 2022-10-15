@@ -7,18 +7,18 @@
     <!--    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
  -->
     <title>Ashley Smith</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./../assets/css/style.css">
     <!-- <link rel="preload" href="RetroSignatureRegular.woff2" as="font" type="font/woff2" crossorigin> -->
     <!-- <link rel="stylesheet" href="content/fonts/retroSignature/RetroSignatureRegular.woff"> -->
-    <link rel="stylesheet" href="./node_modules/%40fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./../node_modules/animate.css/animate.min.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
-        $(".navbarCont").load("navbar.html");
-        $("#footer").load("footer.html");
+         $("#footer").load("../../footer.html");
+            $(".navbarCont").load("./../navbar.html");
          setTimeout(function() { 
         $('#aboutLink').addClass('active')
         $('#aboutLink').attr("aria-current", "page");  
@@ -41,7 +41,7 @@
                 <div class="col-md-6 fixed">
                     <h2 class="welcome fade-in-text text-center fade-in-text my-2 trigger1">About</h2>
                     <!-- <div class="outer"> -->
-                    <img src="content/images/aboutashley.JPG" class=" img-fluid img-responsive rounded mx-auto d-block ashleyImg animate pb-5 fade-in-text" alt="image of girl">
+                    <img src="./../../content/images/aboutashley.JPG" class=" img-fluid img-responsive rounded mx-auto d-block ashleyImg animate pb-5 fade-in-text" alt="image of girl">
                     <!-- <div class="overlay">animate__animated animate__slideInLeft animate__slower</div> -->
                     <!-- </div> -->
                 </div>
@@ -59,14 +59,14 @@
         
         <footer id="footer" class="aboutFooter position-sticky mt-auto"></footer>
     </section>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
  
 
-    <script src="about.js"></script>
-        <script src="main.js"></script>
+    <script src="./../scripts/about.js"></script>
+        <script src="./../main.js"></script>
 
       <script type="text/javascript">
             
