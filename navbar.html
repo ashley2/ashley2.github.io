@@ -1,18 +1,19 @@
 <a class="skip-to-content-link" tabindex="1" href="#skipCont">
-  Skip to content
+    Skip to content
 </a>
 <nav id="navMain" class="navbar pt-3 pb-1 sticky-top navbar-expand-lg navbar-dark bg-light bg-transparent">
     <div class="container-fluid">
         <button class="navbar-toggler navBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick="navFunction()" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-          <a class="navbar-brand" href="#https://www.etsy.com/shop/DigitalArtXAsh?ref=seller-platform-mcnav"><img class="navLogo" src="/content/images/navlogo.png"></a>
+        <a class="navbar-brand" href="#https://www.etsy.com/shop/DigitalArtXAsh?ref=seller-platform-mcnav"><img class="navLogo" alt="art by ash link" src="/content/images/navlogo.png">
+        </a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link text-center" id="homeLink" href="/">home</a>
                 </li>
-                <li class="nav-item text-center" >
+                <li class="nav-item text-center">
                     <a class="nav-link" id="aboutLink" href="/about.html">about</a>
                 </li>
                 <li class="nav-item text-center" id="workLink">
@@ -21,7 +22,7 @@
                 <!--    <li class="nav-item text-center">
                         <a class="nav-link" href="/shop.html">digital artXash </a>
                     </li> -->
-                <li class="nav-item text-center" >
+                <li class="nav-item text-center">
                     <a class="nav-link" id="contactLink" href="/contact.html">contact</a>
                 </li>
             </ul>
@@ -32,10 +33,10 @@
 <script>
 $(document).ready(function() {
     // var pathname = window.location.pathname.slice(1).toString()
-   let pathname = window.location.pathname.slice(1).toString()
+    let pathname = window.location.pathname.slice(1).toString()
 
- if (pathname === "work.html") {
-                $('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li><li><a class="dropdown-item" href="#panelFive">Custom Filters</a></li></ul></li>')
+    if (pathname === "work.html") {
+        $('#workLink').html('<li class="nav-item text-center dropdown"><a class="nav-link dropdown-toggle active" href="#" id="portfolioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">work</a><ul class="dropdown-menu" aria-labelledby="portfolioDropDown"><li><a class="dropdown-item" href="#panelOne">Web Development & Design</a></li><li><a class="dropdown-item" href="#panelTwo">Mockups & Design</a></li> <li><a class="dropdown-item" href="#panelThree">Logos & Branding</a></li><li><a class="dropdown-item" href="#panelFour">Digital Art</a></li><li><a class="dropdown-item" href="#panelFive">Custom Filters</a></li></ul></li>')
 
         $('#navMain').toggleClass('navbar-dark navbar-light')
     }
