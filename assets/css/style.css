@@ -11887,8 +11887,8 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .scroll-trigger-about {
-    font-size: 0.5rem;
-    margin-top: 65%;
+    font-size: 0.8rem;
+    margin-top: 6%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11928,13 +11928,19 @@ textarea.form-control-lg {
     margin-top: 40%;
   }
 }
+@media (min-width: 768px) {
+  .dropdown-menu.show {
+    margin-left: 29%;
+    margin-right: 29%;
+  }
+}
 @media (max-width: 991.98px) {
-  .welcome {
+  .welcome, .linkHeader {
     font-size: calc(1.825rem + 6.9vw);
   }
 }
 @media (max-width: 991.98px) and (min-width: 1200px) {
-  .welcome {
+  .welcome, .linkHeader {
     font-size: 7rem;
   }
 }
@@ -23740,6 +23746,13 @@ textarea.form-control-lg {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "didot";
+  src: url("../fonts/didot/Didot%20Regular.ttf") format("truetype"), url("../fonts/retroSignature/RetroSignatureRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   font-family: "Quicksand", sans-serif;
   color: white;
@@ -23752,7 +23765,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-family: "didot";
+  font-family: "didot", sans-serif;
   color: #dd8672;
   text-transform: lowercase;
   letter-spacing: 10px;
@@ -23763,7 +23776,7 @@ h3, .h3 {
 }
 
 .tagline {
-  font-family: "didot";
+  font-family: "didot", sans-serif;
   letter-spacing: 3.5px;
 }
 
@@ -23805,7 +23818,7 @@ p.text {
 
 .sliderContent,
 .aboutText {
-  font-family: "didot";
+  font-family: "didot", sans-serif;
 }
 
 .topText {
@@ -23848,7 +23861,23 @@ p.text {
   }
 
   .signature {
-    margin-top: 70%;
+    margin-top: 44%;
+    font-size: calc(2.325rem + 12.9vw);
+  }
+}
+@media (max-width: 575.98px) and (min-width: 1200px) {
+  .signature {
+    font-size: 12rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .tagline {
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 1200px) {
+  .tagline {
+    font-size: 2.5rem !important;
   }
 }
 .fade-in-text {
@@ -23967,115 +23996,27 @@ hr {
     animation: slideInDown 2s 1;
   }
 }
-.form-field {
-  display: block;
-  margin-bottom: 16px;
-}
-
-.form-field__label {
-  font-size: 0.75rem;
-  transform: translateY(-14px);
-  display: block;
-  font-weight: normal;
-  left: 0;
-  margin: 0;
-  padding: 18px 12px 0;
-  position: absolute;
-  top: 0;
-  transition: all 0.4s;
-  width: 100%;
-}
-
-.form-field__control {
-  border-radius: 8px 8px 0 0;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.form-field__bar {
-  border-bottom: 2px solid #dd8672;
-  bottom: 0;
-  content: "";
-  display: block;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  transform: scaleX(0);
-  transition: all 0.4s;
-  width: 1%;
-}
-
-.form-field__input,
-.form-field__textarea {
-  appearance: none;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #999;
-  color: #333;
-  display: block;
-  font-size: 1.2rem;
-  margin-top: 24px;
-  outline: 0;
-  padding: 0 12px 10px 12px;
-  width: 100%;
-}
-.form-field__input:-ms-input-placeholder ~ .form-field__label,
-.form-field__textarea:-ms-input-placeholder ~ .form-field__label {
-  font-size: 1.2rem;
-  transform: translateY(0);
-}
-.form-field__input:placeholder-shown ~ .form-field__label,
-.form-field__textarea:placeholder-shown ~ .form-field__label {
-  font-size: 1.2rem;
-  transform: translateY(0);
-}
-.form-field__input:focus ~ .form-field__label,
-.form-field__textarea:focus ~ .form-field__label {
-  color: #dd8672;
-  font-size: 0.75rem;
-  transform: translateY(-14px);
-}
-.form-field__input:focus ~ .form-field__bar,
-.form-field__textarea:focus ~ .form-field__bar {
-  border-bottom: 2px solid #dd8672;
-  transform: scaleX(150);
-}
-
-.form-field__textarea {
-  height: 150px;
-}
-
-.sideCol {
-  background-image: linear-gradient(to bottom, #dd8672, #e3a699 50%, #a9c875);
-}
-
-.paper-plane {
-  position: absolute;
-  width: 6.5rem;
-  top: 50%;
-  left: -6.5rem;
-  z-index: 1;
-}
-
-.submitForm {
+.contactLinks {
   transition: all 0.7s ease;
-  color: white;
+  color: black;
   border: 3px solid #dd8672;
   text-transform: uppercase;
   text-align: center;
   line-height: 1;
   font-size: 17px;
-  background-color: #dd8672;
   padding: 10px;
   outline: none;
   border-radius: 4px;
+  margin: 0 auto;
+  text-decoration: none;
 }
-.submitForm:hover {
-  color: white;
+.contactLinks:hover {
+  color: black;
+  cursor: pointer;
   border: 3px solid #a9c875;
-  background-color: #a9c875;
+}
+.contactLinks:focus {
+  border-color: #a9c875;
 }
 
 footer {
@@ -24095,6 +24036,10 @@ footer {
 .navbar li {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.artxashLogo {
+  height: 2rem !important;
 }
 
 #overlay {
@@ -24118,6 +24063,25 @@ footer {
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+}
+
+.skip-to-content-link {
+  background: white;
+  border: 2px solid black;
+  height: 35px;
+  z-index: 10000;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
+.navLogo {
+  max-width: 3rem;
 }
 
 .panelOne, .panelFive {
@@ -24234,6 +24198,10 @@ footer {
   opacity: 1;
 }
 
+.workFade.fade {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
 img[src*=neon], img[src*=hbd] {
   max-width: 300px !important;
   margin-left: auto;
@@ -24323,6 +24291,11 @@ body .content {
   border-radius: 4px;
 }
 #projectBtn:hover, #contactBtn:hover, .sendBtn:hover {
+  color: white;
+  border: 3px solid #a9c875;
+  background-color: #a9c875;
+}
+#projectBtn:focus, #contactBtn:focus, .sendBtn:focus {
   color: white;
   border: 3px solid #a9c875;
   background-color: #a9c875;

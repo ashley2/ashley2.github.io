@@ -17,7 +17,9 @@
 //     background-color: whitesmoke;
 //     width: 30%;
 // }
-
+.artxashLogo{
+height: 2rem !important;
+}
 
 #overlay {
   position: fixed; 
@@ -40,4 +42,24 @@
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+}
+
+.skip-to-content-link {
+  background: white;
+  border: 2px solid black;
+  height: 35px;
+  z-index: 10000;
+  // left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
+.navLogo {
+    max-width: 3rem;
 }

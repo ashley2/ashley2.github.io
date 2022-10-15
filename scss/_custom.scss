@@ -92,8 +92,8 @@
     }
 
     .scroll-trigger-about {
-        @include font-size(.5rem);
-        @include margin-top(65%);
+        @include font-size(.8rem);
+        @include margin-top(6%);
     }
 
 }
@@ -132,18 +132,32 @@
         @include margin-top(40%);
     }
 }
+
+@include media-breakpoint-up(md) {
+    .dropdown-menu.show      {
+        @include margin-left(29%);
+       @include  margin-right(29%);
+    }
+    
+}
+
+
+
 @include media-breakpoint-down(lg) {
-    .welcome  {
+    .welcome, .linkHeader {
         @include font-size(7rem);
     }
+
     .illustrationHero {
-       background-position: center !important;
+        background-position: center !important;
     }
 }
+
 @include media-breakpoint-down(sm) {
     .welcomeSub {
         @include font-size(1rem !important);
     }
+
     // #navMain {
     //      @include padding-bottom(100%);
 

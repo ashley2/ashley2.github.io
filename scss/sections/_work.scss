@@ -137,6 +137,9 @@ $imgpath: /content/images;
   opacity: 1;
 }
 
+.workFade.fade {
+    background-color: rgb(0 0 0 / 45%);
+}
 
 img[src*="neon"], img[src*="hbd"]  {
     max-width: 300px !important;

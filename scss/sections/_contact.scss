@@ -2,150 +2,172 @@ $secondary-color: #dd8672;
 $animation-duration: 0.4s;
 $imgpath: /content/images;
 
-@mixin gradient-x-three-colors($start-color: #dd8672, $mid-color: #e3a699, $color-stop: 50%, $end-color: #a9c875) {
-    background-image: linear-gradient(to bottom, $start-color, $mid-color $color-stop, $end-color);
-}
 
 
-// **** form animation and style ****
-
-@mixin label-inactive() {
-    font-size: 1.2rem;
-    transform: translateY(0);
-}
-
-@mixin label-active() {
-    font-size: 0.75rem;
-    transform: translateY(-14px);
-}
-
-.form-field {
-    display: block;
-    margin-bottom: 16px;
-}
-
-.form-field__label {
-    @include label-active();
-    display: block;
-    font-weight: normal;
-    left: 0;
-    margin: 0;
-    padding: 18px 12px 0;
-    position: absolute;
-    top: 0;
-    transition: all $animation-duration;
-    width: 100%;
-}
-
-.form-field__control {
-    border-radius: 8px 8px 0 0;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.form-field__bar {
-    border-bottom: 2px solid $secondary-color;
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    transform: scaleX(0);
-    transition: all $animation-duration;
-    width: 1%;
-}
-
-.form-field__input,
-.form-field__textarea {
-    appearance: none;
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #999;
-    color: #333;
-    display: block;
-    font-size: 1.2rem;
-    margin-top: 24px;
-    outline: 0;
-    padding: 0 12px 10px 12px;
-    width: 100%;
-
-    // IE 10-11
-    &:-ms-input-placeholder {
-        ~.form-field__label {
-            @include label-inactive();
-        }
-    }
-
-    // All other browsers except Edge
-    &:placeholder-shown {
-        ~.form-field__label {
-            @include label-inactive();
-        }
-    }
-
-    &:focus {
-        ~.form-field__label {
-            color: $secondary-color;
-            @include label-active();
-        }
-
-        ~.form-field__bar {
-            border-bottom: 2px solid $secondary-color;
-            transform: scaleX(150);
-        }
-    }
-}
-
-.form-field__textarea {
-    height: 150px;
-}
-
-// *** end **
-
-
-.sideCol {
-    @include gradient-x-three-colors;
-}
-
-
-
-
-// .animation {
-//   height: vh;
-//   // background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-//   position: relative;
-//   overflow: hidden;
-// }
-
-.paper-plane {
-    position: absolute;
-    width: 6.5rem;
-    top: 50%;
-    left: -6.5rem;
-    z-index: 1;
-}
-
-
-.submitForm {
+.contactLinks {
+    // width: 15rem;
     transition: all .7s ease;
-    color: white;
+    color: black;
     border: 3px solid #dd8672;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
     font-size: 17px;
-    background-color: #dd8672;
+    // background-color: #dd8672;
     padding: 10px;
     outline: none;
     border-radius: 4px;
+    margin: 0 auto;
+    text-decoration: none;
 
     &:hover {
-        color: white;
+        color: black;
+        cursor: pointer;
         border: 3px solid #a9c875;
-        background-color: #a9c875;
+        // background-color: #a9c875;
 
     }
+    &:focus {
+        border-color: #a9c875;
+    }
 }
+
+
+// @mixin gradient-x-three-colors($start-color: #dd8672, $mid-color: #e3a699, $color-stop: 50%, $end-color: #a9c875) {
+//     background-image: linear-gradient(to bottom, $start-color, $mid-color $color-stop, $end-color);
+// }
+
+
+// **** form animation and style ****
+
+// @mixin label-inactive() {
+//     font-size: 1.2rem;
+//     transform: translateY(0);
+// }
+
+// @mixin label-active() {
+//     font-size: 0.75rem;
+//     transform: translateY(-14px);
+// }
+
+// .form-field {
+//     display: block;
+//     margin-bottom: 16px;
+// }
+
+// .form-field__label {
+//     @include label-active();
+//     display: block;
+//     font-weight: normal;
+//     left: 0;
+//     margin: 0;
+//     padding: 18px 12px 0;
+//     position: absolute;
+//     top: 0;
+//     transition: all $animation-duration;
+//     width: 100%;
+// }
+
+// .form-field__control {
+//     border-radius: 8px 8px 0 0;
+//     overflow: hidden;
+//     position: relative;
+//     width: 100%;
+// }
+
+// .form-field__bar {
+//     border-bottom: 2px solid $secondary-color;
+//     bottom: 0;
+//     content: "";
+//     display: block;
+//     left: 0;
+//     margin: 0 auto;
+//     position: absolute;
+//     right: 0;
+//     transform: scaleX(0);
+//     transition: all $animation-duration;
+//     width: 1%;
+// }
+
+// .form-field__input,
+// .form-field__textarea {
+//     appearance: none;
+//     background: transparent;
+//     border: 0;
+//     border-bottom: 1px solid #999;
+//     color: #333;
+//     display: block;
+//     font-size: 1.2rem;
+//     margin-top: 24px;
+//     outline: 0;
+//     padding: 0 12px 10px 12px;
+//     width: 100%;
+
+//     // IE 10-11
+//     &:-ms-input-placeholder {
+//         ~.form-field__label {
+//             @include label-inactive();
+//         }
+//     }
+
+//     // All other browsers except Edge
+//     &:placeholder-shown {
+//         ~.form-field__label {
+//             @include label-inactive();
+//         }
+//     }
+
+//     &:focus {
+//         ~.form-field__label {
+//             color: $secondary-color;
+//             @include label-active();
+//         }
+
+//         ~.form-field__bar {
+//             border-bottom: 2px solid $secondary-color;
+//             transform: scaleX(150);
+//         }
+//     }
+// }
+
+// .form-field__textarea {
+//     height: 150px;
+// }
+
+// *** end **
+
+
+// .sideCol {
+//     @include gradient-x-three-colors;
+// }
+
+
+// .paper-plane {
+//     position: absolute;
+//     width: 6.5rem;
+//     top: 50%;
+//     left: -6.5rem;
+//     z-index: 1;
+// }
+
+
+// .submitForm {
+//     transition: all .7s ease;
+//     color: white;
+//     border: 3px solid #dd8672;
+//     text-transform: uppercase;
+//     text-align: center;
+//     line-height: 1;
+//     font-size: 17px;
+//     background-color: #dd8672;
+//     padding: 10px;
+//     outline: none;
+//     border-radius: 4px;
+
+//     &:hover {
+//         color: white;
+//         border: 3px solid #a9c875;
+//         background-color: #a9c875;
+
+//     }
+// }

@@ -22,11 +22,22 @@
 }
 
 
+@font-face {
+    font-family: 'didot';
+    src: url('../fonts/didot/Didot%20Regular.ttf') format('truetype'),
+        url('../fonts/retroSignature/RetroSignatureRegular.ttf') format('truetype');
+        font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 $secondaryColor: #dd8672;
 $font-family-sans-serif: 'Quicksand',
 sans-serif;
 $font-signature: 'Retro Signature';
-$font-tagline: 'didot';
+$font-tagline: 'didot',
+sans-serif;
 
 body {
     font-family: $font-family-sans-serif;
@@ -68,7 +79,7 @@ h3 {
     .welcomeSub {
         font-size: 1.5rem;
     }
- }
+}
 
 
 // work
@@ -137,12 +148,20 @@ p.text {
     @include margin-top(-4.5rem !important);
 }
 
-   @include media-breakpoint-down(sm) {
+@include media-breakpoint-down(sm) {
     .welcomeSub {
         @include font-size(1rem !important);
     }
+
     .signature {
-         @include margin-top(70%);
+        @include margin-top(44%);
+        @include font-size(12rem);
+
+    }
+
+
+    .tagline {
+        @include font-size(2.5rem !important);
     }
 }
 
