@@ -1,12 +1,21 @@
 [
 	{
-		"header":"Website UX </br> Design Mockup",
-		"text": "Mockup and redesign of restaurant website. Tool: Adobe XD",
+		"header":"Restaurant </br> Redesign Prototype",
+		"text": "Mockup and redesign of restaurant website. Tool: Figma",
 		"image1":"content/images/annualReportImg.png",
-		"image2": "./../content/images/websiteRebrand.png",
-		"modalTitle": "Design Mockups",
+		"image2": "./../content/images/laportasprototype.gif",
+		"modalTitle": "Restaurant Website Redesign",
 		"cardNum": "cards2",
 		"uniqueId": "card2a"
+	},
+	{
+		"header":"Restaurant </br> Redesign",
+		"text": "Mockup and redesign of restaurant website. Tool: Figma",
+		"image1":"content/images/annualReportImg.png",
+		"image2": "./../content/images/Laportasfigma.png",
+		"modalTitle": "Restaurant Website Redesign",
+		"cardNum": "cards2",
+		"uniqueId": "card2b"
 	},
 	{
 		"header":"iphone and ipad </br>  wallpaper mockups",
@@ -15,7 +24,7 @@
 		"image2":"./../content/images/iphoneMockup.png",
 		"modalTitle": "iPhone and iPad wallpaper Mockups",
 		"cardNum": "cards2",
-		"uniqueId": "card2b"
+		"uniqueId": "card2c"
 	},
 	{
 		"header":"Sticker display </br> mockups",
@@ -24,6 +33,6 @@
 		"image2":"./../content/images/stickerMockups.png",
 		"modalTitle": "Sticker Display Mockups",
 		"cardNum": "cards2",
-		"uniqueId": "card2c"
+		"uniqueId": "card2d"
 	}
 ]
