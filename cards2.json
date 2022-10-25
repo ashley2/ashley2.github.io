@@ -1,10 +1,10 @@
 [
 	{
-		"header":"Restaurant </br> Redesign Prototype",
+		"header":"Redesign Prototype",
 		"text": "Mockup and redesign of restaurant website. Tool: Figma",
 		"image1":"content/images/annualReportImg.png",
 		"image2": "./../content/images/laportasprototype.gif",
-		"modalTitle": "Restaurant Website Redesign",
+		"modalTitle": "Restaurant Website Prototype",
 		"cardNum": "cards2",
 		"uniqueId": "card2a"
 	},
