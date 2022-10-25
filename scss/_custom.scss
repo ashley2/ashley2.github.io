@@ -159,7 +159,6 @@
 @include media-breakpoint-down(md) {
     .nav-link {
         @include font-size(3rem !important);
-        @include box-shadow(0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important);
     }
 }
 
@@ -168,14 +167,6 @@
         @include font-size(1rem !important);
     }
 
-    // #navMain {
-    //      @include padding-bottom(100%);
 
-    // }
 }
 
-// @include media-breakpoint-down(1000px) {
-//     .scroll-trigger-about {
-//         @include font-size(.7rem);
-//     }
-// }
