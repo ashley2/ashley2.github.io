@@ -6,46 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
  -->
-    <title>Ashley Smith</title>
+    <title>Development, Design, & Art Work</title>
     <link rel="stylesheet" href="./../assets/css/style.css">
     <!-- <link rel="preload" href="RetroSignatureRegular.woff2" as="font" type="font/woff2" crossorigin> -->
     <!-- <link rel="stylesheet" href="content/fonts/retroSignature/RetroSignatureRegular.woff"> -->
-     <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="./../node_modules/animate.css/animate.min.css">
     <style>
-
-    #navMain {
+        #navMain {
          padding-bottom: 0px;
     }
+    .blogLink {
+    text-decoration: none !important;
+}
+
+
         </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2D4QYDHLB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-V2D4QYDHLB');
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+
+gtag('config', 'G-V2D4QYDHLB');
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  $(function() {
-         $("#footer").load("../../footer.html");
-            $(".navbarCont").load("./../navbar.html");
-         setTimeout(function() { 
+$(function() {
+    $("#footer").load("../../footer.html");
+    $(".navbarCont").load("./../navbar.html");
+    setTimeout(function() {
         // $('#portfolioDropDown').addClass('active')
         // $('#portfolioDropDown').attr("aria-current", "page");  
 
     }, 500);
 
-    });
-    </script>
+});
+</script>
 
 <body>
     <!-- navbar -->
-      <div class="navbarCont">
+    <div class="navbarCont">
     </div>
     <div class="panelContainer" id="skipCont">
         <section id="panelOne" class="panel panelOne mb-5">
@@ -54,34 +59,41 @@
                     <h2 class="welcome fade-in-text text-center">Work</h2>
                     <h3 id="animateOne" class="animate animate__animated pb-5 ms-5 text">Web Development & Design</h3>
                 </div>
-                <div class="row" id="cardRow1">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-sm-5 ms-4" id="cardRow1">
                 </div>
         </section>
         <section id="panelTwo" class="panel panelTwo pb-5">
             <div class="container ">
-                <h3 id="animateTwo" class="animate animate__animated py-5 ms-5 ">Mockups & Design</h3>
-                <div class="row" id="cardRow2">
+                <h3 id="animateTwo" class="animate animate__animated py-5 ms-5">Mockups & Design</h3>
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-sm-5 ms-4" id="cardRow2">
                 </div>
             </div>
         </section>
         <section id="panelThree" class="panel panelThree mb-5">
             <div class="container ">
                 <h3 id="animateThree" class="animate animate__animated py-5 ms-5">Logos & Branding </h3>
-                <div class="row" id="cardRow3">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-sm-5 ms-4" id="cardRow3">
                 </div>
             </div>
         </section>
         <section id="panelFour" class="panel panelFour pb-5">
             <div class="container ">
                 <h3 id="animateFour" class="animate animate__animated py-5 ms-5 text-light">Digital Art</h3>
-                <div class="row" id="cardRow4">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-sm-5 ms-4" id="cardRow4">
                 </div>
             </div>
         </section>
-         <section id="panelFive" class="panel panelFive pb-5">
+        <section id="panelFive" class="panel panelFive pb-5">
             <div class="container ">
                 <h3 id="animateFive" class="animate animate__animated py-5 ms-5">Custom Filters</h3>
-                <div class="row" id="cardRow5">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-sm-5 ms-4" id="cardRow5">
+                </div>
+            </div>
+        </section>
+        <section id="panelSix" class="panel panelSix pb-5">
+            <div class="container ">
+                <h3 id="animateSix" class="animate animate__animated py-5 ms-5">Blog Posts</h3>
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4" id="blogRow">
                 </div>
             </div>
         </section>
@@ -94,7 +106,6 @@
         $('body').css('display', 'none').fadeIn(700);
 
     })
-
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

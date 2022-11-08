@@ -5,6 +5,8 @@
 		"image1":"content/images/annualReportImg.png",
 		"image2": "./../content/images/phoneart.png",
 		"modalTitle": "Phone wallpaper",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4a"
 	},
@@ -14,6 +16,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/petIllustrations.png",
 		"modalTitle": "Pet illustrations - Tools: Procreate",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4b"
 	},
@@ -23,6 +27,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/beanart.png",
 		"modalTitle": "Worls Best Bean - Tools: Procreate",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4c"
 
@@ -33,6 +39,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/plantsArt.png",
 		"modalTitle": "Plant Prints",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4d"
 
@@ -43,6 +51,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/kodapokemon.png",
 		"modalTitle": "photoshop art",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4e"
 
@@ -53,6 +63,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/monsteraart.png",
 		"modalTitle": "Realism",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4f"
 
@@ -63,6 +75,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/christmastags.png",
 		"modalTitle": "Holiday gift tags",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards4",
 		"uniqueId": "card4g"
 

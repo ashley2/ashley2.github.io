@@ -1,4 +1,5 @@
     $(document).ready(function() {
+
         // portfolio page add cards and snap pages
         var header;
         var text;
@@ -15,7 +16,6 @@
                 dataType: 'json',
                 success: function(data) {
                     var cardData = data;
-                    // var uniqueId = 0;
                     for (var item in cardData) {
                         header = cardData[item].header;
                         text = cardData[item].text;
@@ -23,18 +23,92 @@
                         image2 = cardData[item].image2;
                         modalTitle = cardData[item].modalTitle;
                         cardNum = cardData[item].cardNum;
-                        // uniqueId += 1;
+                        caseSolution = cardData[item].caseSolution;
+                        caseChallenge = cardData[item].caseChallenge;
                         uniqueId = cardData[item].uniqueId;
-                        // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img" src=" ${image2} "></div></div></div> <div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">${modalTitle}</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img class="modalImage img-responsive" src="${image2}" alt="gif"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>`;
-                        // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img img-fluid" src=" ${image2} "></div></div></div> <div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><h5 class="modal-title">${modalTitle}</h5><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"><div class="modal-footer">${text}</div></div></div>`;
-                        let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p></div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img img-fluid" src="${image2}"></div></div></div><div class="modal fade workFade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="workModal modal-content"><h5 class="modal-title">${modalTitle}</h5><div>${text}</div><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"></div></div></div>`;
+                        // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p></div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img img-fluid" src="${image2}"></div></div></div><div class="modal fade workFade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="workModal modal-content"><h5 class="modal-title">${modalTitle}</h5><div>${text}</div><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif"></div></div></div>`;
+                        let card = `<div class="col">
+<div class="card workCard pointer" style="width: 35rem;">
+     <div class="ico-card" tabindex="0" id="${uniqueId}"><img class="cardImg card-img img-fluid" src="${image2}"></div>
+  <div class="card-body">
+   
+  </div>
+</div>
+<div class="modal fade workFade textDark ${uniqueId}" aria-labelledby="card${uniqueId}Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="workModal modal-content"><button type="button" class="btn-close visually-hidden-focusable float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">${modalTitle}</h5>
 
-                        // let card = `<div class="col-md-6 col-lg-4 column cardCol"><div class="card pointer"><div class="card-img-overlay cardTxt"><div class="txt"><h1 id="cardHeader">${header}</h1><p>${text}</p> </div></div><div class="ico-card" id="${uniqueId}"><img class="active cardImg card-img" src=" ${image2} "></div></div></div>`;
-                        // let modal = `<div class="modal fade textDark ${uniqueId}" tabindex="-1" aria-labelledby="card${uniqueId}Label" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">${modalTitle}</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img src="${image2}" alt="gif"></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>`
+            <div>${text}</div>
+
+<ul class="nav nav-tabs mb-2" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link tabLink active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tab${uniqueId}" type="button" role="tab" aria-controls="tab${uniqueId}" aria-selected="true">Product</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link tabLink" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile${uniqueId}" type="button" role="tab" aria-controls="profile${uniqueId}" aria-selected="false">Case Study</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="tab${uniqueId}" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+  <img class="modalImage img-responsive modal-content" src="${image2}" alt="gif">
+  </div>
+  <div class="tab-pane fade" id="profile${uniqueId}" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+ <div class="row">
+   <h4>Goal</h4>
+  <p>${caseChallenge}</p>
+  </div>
+    <div class="row">
+   <h4>Solution</h4>
+   <p>${caseSolution}</p>
+   </div>
+  </div>
+</div>
+   
+        </div>
+
+    </div></div> `; 
+
+
+
+
+
+//     let card = `<div class="col">
+// <div class="card workCard pointer" style="width: 35rem;">
+//      <div class="ico-card" tabindex="0" id="${uniqueId}"><img class="cardImg card-img img-fluid" src="${image2}"></div>
+//   <div class="card-body">
+   
+//   </div>
+// </div>
+// <div class="modal fade workFade textDark ${uniqueId}" aria-labelledby="card${uniqueId}Label" aria-hidden="true">
+//     <div class="modal-dialog modal-dialog-centered modal-lg">
+//         <div class="workModal modal-content">
+//             <h5 class="modal-title">${modalTitle}</h5>
+//             <div>${text}</div><img class="modalImage img-responsive modal-content" src="${image2}" alt="gif">
+// <p>
+//   <button type="button" class="btn text-light caseStudyBtn float-end mt-2" data-bs-toggle="collapse" data-bs-target="#caseStudyCard">Case Study</button>
+// </p>
+//   <div id="caseStudyCard" class="collapse">
+//   <div class="row">
+//   <h4>Goal</h4>
+//   <p>${caseChallenge}</p>
+//   </div>
+//    <div class="row">
+//    <h4>Solution</h4>
+//    <p>${caseSolution}</p>
+//    </div>
+
+// </div>
+   
+//         </div>
+
+//     </div></div> `;
+
 
                         switch (cardNum) {
                             case 'cards1':
                                 $("#cardRow1").append(card);
+
                                 break;
                             case 'cards2':
 
@@ -52,20 +126,27 @@
 
                                 $("#cardRow5").append(card)
                                 break;
-                        }
+                        };
+                        $(".ico-card").on('keypress', function() {
+                            var modalClass = $(this).attr('id')
+                            $("." + modalClass).modal('show');
+                        })
                         $("#cardRow1, #cardRow2, #cardRow3, #cardRow4, #cardRow5").on('mouseover', '.card', function() {
 
                             var $this = $(this);
-                            $this.find(".ico-card").css({ "background-color": "black", "opacity": "0.1" });
                             var modalClass = $this.find(".ico-card").attr('id')
                             $this.click(function() {
                                 $("." + modalClass).modal('show');
-                            })
-
+                            });
                         });
-                        $("#cardRow1, #cardRow2, #cardRow3, #cardRow4, #cardRow5").on('mouseout', '.card', function() {
-                            var $this = $(this);
-                            $this.find(".ico-card").css({ "background-color": "transparent", "opacity": "1" });
+
+                        $('.ico-card').each(function(i, obj) {
+                            var cardId = $(this).attr('id');
+                            const cardChar = (cardId).charAt(cardId.length - 1)
+                            if ((cardChar === 'a') || (cardChar === 'c') || (cardChar === 'e') || (cardChar === 'g')) {
+                                $(this).parent().addClass('float-lg-end');
+                            }
+
                         });
 
                     }
@@ -78,17 +159,7 @@
         };
 
         const portfolioController = new ScrollMagic.Controller()
-        // $(".animate").each(function() {
-        //         new ScrollMagic.Scene({
-        //                 triggerElement: this,
-        //                 triggerHook: "onCenter", // show, when scrolled 10% into view
-        //                 // duration: "60%", // hide 10% before exiting view (80% + 10% from bottom)
-        //                 // offset: 50 // move trigger to center of element
-        //             })
-        //             .setClassToggle(".animate__animated", "animate__slideInLeft") // add class to reveal
-        //             .addIndicators() // add indicators (requires plugin)
-        //             .addTo(portfolioController);
-        //           })
+
         new ScrollMagic.Scene({
                 triggerElement: "#animateOne",
                 triggerHook: "onEnter",
@@ -120,6 +191,32 @@
             })
             .setClassToggle("#animateFive", "animate__slideInLeft")
             .addTo(portfolioController);
+        new ScrollMagic.Scene({
+                triggerElement: "#animateSix",
+                triggerHook: "onEnter",
+            })
+            .setClassToggle("#animateSix", "animate__slideInLeft")
+            .addTo(portfolioController);
+
+
+        // Position to show data
+        const blogPos = $("#blogRow");
+        const username = "ashleysmith2";
+        const api = "https://dev.to/api/articles?";
+        const finalURL = buildURL(username);
+        fetch(finalURL)
+            .then((response) => response.json())
+            .then(posts => {
+                posts.length = 5;
+                posts.forEach((post) => {
+                    let blogCard = `<div class="col-md-6 col-lg-4 column cardCol"><div class="container"><a href="${post.url}" class="blogLink" target="_blank"><div class="card blogCard workCard px-0" style="width: 35rem;"><img src="${post.cover_image}" class="card-img-top" alt="Blog Post Image"><div class="card-body"><div class="row"><h4> ${post.title} </h4></div><div class="row"><p class="card-text"> ${post.description} </p><div class="row"><div><i class="fa-solid fa-heart"></i> ${post.public_reactions_count}   <i class="fa fa-comment ms-2" aria-hidden="true"></i> ${post.comments_count}</div></div></div></div></div></a></div></div>`;
+                    $(blogPos).append(blogCard);
+                });
+            });
+        // build url
+        function buildURL(userName) {
+            return `${api}username=${userName}`;
+        };
 
 
 

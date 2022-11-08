@@ -112,10 +112,11 @@
 
     }
 
-
 }
 
-@include media-breakpoint-between(lg, xl) {
+
+@include media-breakpoint-between(lg,
+xl) {
     .rowStart {
         @include margin-left(10rem !important);
         // margin-left: 2%;
@@ -133,27 +134,51 @@
     }
 }
 
-@include media-breakpoint-up(sm) {
-    .dropdown-menu.show      {
-        @include margin-left(29%);
-       @include  margin-right(29%);
+@include media-breakpoint-up(lg) {
+    .card.workCard {
+        min-height: 393px !important;
+        width: 35rem !important;
     }
-    
+
 }
 
 
+@include media-breakpoint-up(sm) {
+    .dropdown-menu.show {
+        @include margin-left(29%);
+        @include margin-right(29%);
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+     .card.workCard {
+        min-height: 225px !important;
+        width: 27rem !important;
+    }
+}
+@include media-breakpoint-only(md) {
+    .card.workCard {
+        min-height: 391px !important;
+        width: 38rem !important;
+    }
+}
 
 @include media-breakpoint-down(lg) {
-    .welcome, .linkHeader {
+
+    .welcome,
+    .linkHeader {
         @include font-size(7rem);
     }
 
     .illustrationHero {
         background-position: center !important;
     }
+
     .nav-link {
         @include font-size(3rem !important)
     }
+
 }
 
 @include media-breakpoint-down(md) {
@@ -167,6 +192,25 @@
         @include font-size(1rem !important);
     }
 
+    .card.workCard {
+        min-height: 230px !important;
+        width: 21rem !important;
+        margin-left: 1.8rem !important;
+    }
 
 }
 
+@media (max-width: 375px) {
+    .card.workCard {
+        min-height: 205px !important;
+        width: 18rem !important;
+        margin-left: 1.8rem !important;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .card.workCard {
+        margin-left: -0.1rem !important;
+    }
+}

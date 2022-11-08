@@ -1,17 +1,14 @@
 $secondaryColor: #dd8672;
 $imgpath: /content/images;
 
-.panel {
-    // height: 100vh;
-    // scroll-snap-align: start;
-}
-
-.panelOne,  .panelFive {
+.panelOne,
+.panelFive {
     background-color: white;
 }
 
-.panelTwo {
-    background-color:#d4d0bc;
+.panelTwo,
+.panelSix {
+    background-color: #d4d0bc;
 }
 
 .panelThree {
@@ -25,10 +22,11 @@ $imgpath: /content/images;
 .panelContainer {
     // max-height: 100vh;
     overflow: hidden;
-    margin-left:-2rem;
+    margin-left: -2rem;
     // overflow-y: scroll;
     // scroll-snap-type: y mandatory;
 }
+
 #portfolioDropDown {
     text-align: center;
 }
@@ -36,29 +34,9 @@ $imgpath: /content/images;
 .column {
     margin-top: 3rem;
     padding-left: 3rem;
-        transition: .5s;
-
-
-    &:hover {
-        padding-left: 0;
-            transition: .5s;
-
-
-        .card .txt {
-            margin-left: 1rem;
-                transition: .5s;
-
-
-            h1,
-            p {
-                color: black;
-                opacity: 1;
-                    transition: .5s;
-
-            }
-        }
-    }
+    transition: .5s;
 }
+
 .cardImg {
     height: 100%;
     width: auto;
@@ -67,22 +45,23 @@ $imgpath: /content/images;
     margin-right: auto;
 }
 
-.card.pointer{
-    min-height: 170px;
+.card.workCard {
+    // max-height: 359px;
+    min-height: 359px;
     margin: 0;
-    padding: 1.7rem 1.2rem;
+    // padding: 1.7rem 1.2rem;
     border: none;
     border-radius: 0;
     color: black;
     letter-spacing: .05rem;
     box-shadow: 0 0 21px rgba(0, 0, 0, .27);
-        transition: .5s;
+    transition: .5s;
 
 
     .txt {
         margin-left: -3rem;
         z-index: 1;
-            transition: .5s;
+        transition: .5s;
 
 
         h1 {
@@ -91,7 +70,7 @@ $imgpath: /content/images;
             text-transform: uppercase;
             opacity: 0;
             color: rgba(255, 255, 255, 1);
-                transition: .5s;
+            transition: .5s;
 
         }
 
@@ -101,7 +80,7 @@ $imgpath: /content/images;
             margin-top: 33px;
             opacity: 0;
             color: rgba(255, 255, 255, 1);
-                transition: .5s;
+            transition: .5s;
 
         }
     }
@@ -115,13 +94,17 @@ $imgpath: /content/images;
         width: 100%;
         height: 100%;
         overflow: hidden;
-            transition: .5s;
+        transition: .5s;
 
-    }   
+    }
+}
+
+.workCard:hover {
+    transform: scale(1.1);
 }
 
 .cardTxt {
-  z-index: 1;
+    z-index: 1;
 }
 
 .workModal.modal-content {
@@ -130,20 +113,45 @@ $imgpath: /content/images;
 }
 
 .pointer {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .static {
-  opacity: 1;
+    opacity: 1;
+}
+
+.caseStudyBtn {
+    border: 2px solid white;
 }
 
 .workFade.fade {
-    background-color: rgb(0 0 0 / 45%);
+    background-color: rgb(0 0 0 / 70%);
 }
 
-img[src*="neon"], img[src*="hbd"]  {
+
+.nav-link.tabLink {
+    color: white !important;
+    background-color: rgb(255 255 255 / 0%) !important;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.nav-link.tabLink.active {
+    color: $secondaryColor !important;
+    border: none;
+    border-bottom: 4px solid $secondaryColor;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+img[src*="neon"],
+img[src*="hbd"] {
     max-width: 300px !important;
     margin-left: auto;
     margin-right: auto;
 }
-

@@ -11928,19 +11928,39 @@ textarea.form-control-lg {
     margin-top: 40%;
   }
 }
+@media (min-width: 992px) {
+  .card.workCard {
+    min-height: 393px !important;
+    width: 35rem !important;
+  }
+}
 @media (min-width: 576px) {
   .dropdown-menu.show {
     margin-left: 29%;
     margin-right: 29%;
   }
 }
+@media (min-width: 992px) and (max-width: 1024px) {
+  .card.workCard {
+    min-height: 225px !important;
+    width: 27rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card.workCard {
+    min-height: 391px !important;
+    width: 38rem !important;
+  }
+}
 @media (max-width: 991.98px) {
-  .welcome, .linkHeader {
+  .welcome,
+.linkHeader {
     font-size: calc(1.825rem + 6.9vw);
   }
 }
 @media (max-width: 991.98px) and (min-width: 1200px) {
-  .welcome, .linkHeader {
+  .welcome,
+.linkHeader {
     font-size: 7rem;
   }
 }
@@ -11972,6 +11992,24 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .welcomeSub {
     font-size: 1rem !important;
+  }
+
+  .card.workCard {
+    min-height: 230px !important;
+    width: 21rem !important;
+    margin-left: 1.8rem !important;
+  }
+}
+@media (max-width: 375px) {
+  .card.workCard {
+    min-height: 205px !important;
+    width: 18rem !important;
+    margin-left: 1.8rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .card.workCard {
+    margin-left: -0.1rem !important;
   }
 }
 :root {
@@ -23823,7 +23861,7 @@ h3, .h3 {
   text-align: center;
 }
 
-#animateTwo {
+#animateTwo, #animateSix {
   color: #FAF9F6 !important;
 }
 
@@ -23949,7 +23987,7 @@ p.text {
   }
 }
 .modalImage {
-  max-width: 48rem;
+  max-width: 50rem;
 }
 
 hr {
@@ -24104,11 +24142,13 @@ footer {
   max-width: 3rem;
 }
 
-.panelOne, .panelFive {
+.panelOne,
+.panelFive {
   background-color: white;
 }
 
-.panelTwo {
+.panelTwo,
+.panelSix {
   background-color: #d4d0bc;
 }
 
@@ -24134,20 +24174,6 @@ footer {
   padding-left: 3rem;
   transition: 0.5s;
 }
-.column:hover {
-  padding-left: 0;
-  transition: 0.5s;
-}
-.column:hover .card .txt {
-  margin-left: 1rem;
-  transition: 0.5s;
-}
-.column:hover .card .txt h1,
-.column:hover .card .txt p {
-  color: black;
-  opacity: 1;
-  transition: 0.5s;
-}
 
 .cardImg {
   height: 100%;
@@ -24157,10 +24183,9 @@ footer {
   margin-right: auto;
 }
 
-.card.pointer {
-  min-height: 170px;
+.card.workCard {
+  min-height: 359px;
   margin: 0;
-  padding: 1.7rem 1.2rem;
   border: none;
   border-radius: 0;
   color: black;
@@ -24168,12 +24193,12 @@ footer {
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
   transition: 0.5s;
 }
-.card.pointer .txt {
+.card.workCard .txt {
   margin-left: -3rem;
   z-index: 1;
   transition: 0.5s;
 }
-.card.pointer .txt h1 {
+.card.workCard .txt h1 {
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -24181,7 +24206,7 @@ footer {
   color: white;
   transition: 0.5s;
 }
-.card.pointer .txt p {
+.card.workCard .txt p {
   font-size: 0.7rem;
   letter-spacing: 0rem;
   margin-top: 33px;
@@ -24189,7 +24214,7 @@ footer {
   color: white;
   transition: 0.5s;
 }
-.card.pointer .ico-card {
+.card.workCard .ico-card {
   position: absolute;
   top: 0;
   left: 0;
@@ -24199,6 +24224,10 @@ footer {
   height: 100%;
   overflow: hidden;
   transition: 0.5s;
+}
+
+.workCard:hover {
+  transform: scale(1.1);
 }
 
 .cardTxt {
@@ -24218,11 +24247,34 @@ footer {
   opacity: 1;
 }
 
-.workFade.fade {
-  background-color: rgba(0, 0, 0, 0.45);
+.caseStudyBtn {
+  border: 2px solid white;
 }
 
-img[src*=neon], img[src*=hbd] {
+.workFade.fade {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link.tabLink {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.nav-link.tabLink:hover {
+  color: white;
+}
+
+.nav-link.tabLink.active {
+  color: #dd8672 !important;
+  border: none;
+  border-bottom: 4px solid #dd8672;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+img[src*=neon],
+img[src*=hbd] {
   max-width: 300px !important;
   margin-left: auto;
   margin-right: auto;

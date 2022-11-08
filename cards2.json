@@ -1,21 +1,15 @@
 [
-	{
-		"header":"Redesign Prototype",
-		"text": "Mockup and redesign of restaurant website. Tool: Figma",
-		"image1":"content/images/annualReportImg.png",
-		"image2": "./../content/images/laportasprototype.gif",
-		"modalTitle": "Redesign Prototype",
-		"cardNum": "cards2",
-		"uniqueId": "card2a"
-	},
+	
 	{
 		"header":"Restaurant </br> Redesign",
 		"text": "Mockup and redesign of restaurant website. Tool: Figma",
 		"image1":"content/images/annualReportImg.png",
 		"image2": "./../content/images/Laportasfigma.png",
 		"modalTitle": "Restaurant Website Redesign",
+		"caseChallenge": "Redesign the restaurant website to make it modern, accessible, and visually appealing. Provide a better user experience to find all informastion a customer needs. Envoke emotion so users desire to make reservations.",
+		"caseSolution": "Here I created a style guide and component guide. When working on this redesign I wanted to ensure I captured the essense of the restaurant. I restructured the different pages to provide a better experience when a user needs to find specific information. I added the sticky buttons for reservations and online ordering to be available and accessible at all times.",
 		"cardNum": "cards2",
-		"uniqueId": "card2b"
+		"uniqueId": "card2a"
 	},
 	{
 		"header":"iphone and ipad </br>  wallpaper mockups",
@@ -23,8 +17,10 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/iphoneMockup.png",
 		"modalTitle": "iPhone and iPad wallpaper Mockups",
+		"caseChallenge": "Design for online product shop to show phone and ipad wallpapers for sale",
+		"caseSolution": "These designs are clean and simple and show how the wallpaper will look on each device.",
 		"cardNum": "cards2",
-		"uniqueId": "card2c"
+		"uniqueId": "card2b"
 	},
 	{
 		"header":"Sticker display </br> mockups",
@@ -32,7 +28,9 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/stickerMockups.png",
 		"modalTitle": "Sticker Display Mockups",
+		"caseChallenge": "Design for online product shop to show stickers on different layouts for sale",
+		"caseSolution": "The designs are shown on different backgrounds while looking clean and visually pleasing.",
 		"cardNum": "cards2",
-		"uniqueId": "card2d"
+		"uniqueId": "card2c"
 	}
 ]

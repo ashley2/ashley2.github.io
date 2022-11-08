@@ -5,6 +5,8 @@
 		"image1":"content/images/brandKit.PNG",
 		"image2": "./../content/images/brandKit.PNG",
 		"modalTitle": "BRAND KIT",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards3",
 		"uniqueId": "card3a"
 	},
@@ -14,6 +16,8 @@
 		"image1":"content/images/quinchella.png",
 		"image2":"./../content/images/quinnchella.png",
 		"modalTitle": "Party designs",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards3",
 		"uniqueId": "card3b"
 	},
@@ -23,6 +27,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/logoExamples.png",
 		"modalTitle": "Logo Examples",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards3",
 		"uniqueId": "card3c"
 	},
@@ -32,6 +38,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/birthdayposter.png",
 		"modalTitle": "Event Poster",
+		"caseChallenge": "",
+		"caseSolution": "",
 		"cardNum": "cards3",
 		"uniqueId": "card3d"
 	}
