@@ -35,12 +35,12 @@
 	},
 	{
 		"header":"TAGGS BACKOFFICE</br>APPLICATION",
-		"text": "Private client side dashboard to keep track of the data and trends Tools: Javascript, HTML CSS, JQUERY, DevExpress.",
+		"text": "Private client side dashboard to keep track of the data and trends Tools: Javascript, HTML CSS, JQUERY, DevExpress, adobeXD",
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/tbo.png",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
 		"caseChallenge": "To create a private dashboard for the client to be able to analyze important data to keep track of where the grant money is going and which Operating Divisions (OPDIVS) are compliant with their reporting.",
-		"caseSolution": "I had to create a design that was high level visualizations in a dashbaord maner that lets you dig deep into the data and manipulate it to see many different views.  I used a series of bite size cards to display big numbers quickly upon entering the dashboard.  I also used tabbed sections similar to differnt file structures to easily organize each type of chart that needed a more full width view.",
+		"caseSolution": "I had to create a design that was high level visualizations in a dashbaord maner that lets you dig deep into the data and manipulate it to see many different views.  I used a series of bite size cards to display big numbers quickly upon entering the dashboard.  I also used tabbed sections similar to differnt file structures to easily organize each type of chart that needed a more full width view.  I utilized colors to help viewers quickly establish what they are looking at.",
 		"cardNum": "cards1",
 		"uniqueId": "card1d"
 	},

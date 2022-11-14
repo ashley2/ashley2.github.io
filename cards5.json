@@ -5,6 +5,8 @@
 		"image1":"content/images/annualReportImg.png",
 		"image2": "./../content/images/neonbabes.gif",
 		"modalTitle": "Neon Babes Filter",
+		"caseChallenge": "Create a fun and colorful filter that gives you a little tan and retro vibes",
+		"caseSolution": "Using my own illustrations I created the 'doodles' Procreate and used them in SparkAR as fun augmented background.",
 		"cardNum": "cards5",
 		"uniqueId": "card5a"
 	},
@@ -14,6 +16,8 @@
 		"image1": "https://gph.is/g/4AgX8LN",
 		"image2":"./../content/images/hbd.gif",
 		"modalTitle": "HBD Polaroid Filter",
+		"caseChallenge": "Create a Happy Birthday Polaroid instagram filter that changes colors",
+		"caseSolution": "-",
 		"cardNum": "cards5",
 		"uniqueId": "card5b"
 	}
