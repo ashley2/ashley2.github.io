@@ -209,7 +209,7 @@
             .then(posts => {
                 posts.length = 5;
                 posts.forEach((post) => {
-                    let blogCard = `<div class="col-md-6 col-lg-4 column cardCol"><div class="container"><a href="${post.url}" class="blogLink" target="_blank"><div class="card blogCard workCard px-0" style="width: 35rem;"><img src="${post.cover_image}" class="card-img-top" alt="Blog Post Image"><div class="card-body"><div class="row"><h4> ${post.title} </h4></div><div class="row"><p class="card-text"> ${post.description} </p><div class="row"><div><i class="fa-solid fa-heart"></i> ${post.public_reactions_count}   <i class="fa fa-comment ms-2" aria-hidden="true"></i> ${post.comments_count}</div></div></div></div></div></a></div></div>`;
+                    let blogCard = `<div class="col"><div class="container"><a href="${post.url}" class="blogLink" target="_blank"><div class="card blogCard workCard px-0" style="width: 35rem;"><img src="${post.cover_image}" class="card-img-top" alt="Blog Post Image"><div class="card-body"><div class="row"><h4> ${post.title} </h4></div><div class="row"><p class="card-text"> ${post.description} </p><div class="row"><div><i class="fa-solid fa-heart"></i> ${post.public_reactions_count}   <i class="fa fa-comment ms-2" aria-hidden="true"></i> ${post.comments_count}</div></div></div></div></div></a></div></div>`;
                     $(blogPos).append(blogCard);
                 });
             });
