@@ -74,10 +74,10 @@
                                 <div>Web Developer | UI/UX Designer | Artist | Visionary </div>
                                 <!-- <div>I am an artist</div> -->
                                 <div>Giving your ideas life</div>
-                                <button type="button" id="projectBtn" class="btn mt-3" onclick="window.location.href='https://ashley-smith.net/work';">
+                                <button type="button" id="projectBtn" tabindex="0" class="btn mt-3" aria-label="projects"  role="button" aria-pressed="false" onclick="window.location.href='https://ashley-smith.net/work';">
                                     Projects
                                 </button>
-                                <button type="button" id="contactBtn" class="btn mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">
+                                <button type="button" id="contactBtn" tabindex="0" class="btn mt-3"  role="button" aria-label="contact button" aria-pressed="false" data-bs-toggle="modal" data-bs-target="#contactModal">
                                     Message me
                                 </button>
                             </div>
@@ -114,7 +114,7 @@
                                             <textarea name="message" class="form-control" placeholder="hey!.."></textarea>
                                         </div>
                                     </div>
-                                    <button class="sendBtn float-end my-3" type="submit">Send</button>
+                                    <button class="sendBtn float-end my-3" type="submit" role="button" aria-label="send button" aria-pressed="false">Send</button>
                                 </div>
                             </form>
                         </div>

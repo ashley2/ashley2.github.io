@@ -1,8 +1,8 @@
 [
 	{
-		"header":"Redesign Prototype",
+		"header": "Redesign Prototype",
 		"text": "Mockup and redesign of restaurant website. Tool: Figma",
-		"image1":"content/images/annualReportImg.png",
+		"image1": "content/images/annualReportImg.png",
 		"image2": "./../content/images/laportasmock.gif",
 		"modalTitle": "Redesign Prototype",
 		"caseChallenge": "Redesign the restaurant website to make it modern, accessible, and visually appealing. Provide a better user experience to find all informastion a customer needs. Envoke emotion so users desire to make reservations.",
@@ -11,48 +11,58 @@
 		"uniqueId": "card1a"
 	},
 	{
-		"header":"HHS ANNUAL</br>REPORT",
+		"header": "LoveCup App Prototype",
+		"text": "LoveCup the love languages app for couples",
+		"image1": "./content/images/annualReportImg.png",
+		"image2": "./../content/images/loveCupPrototype.gif",
+		"modalTitle": "LoveCup App Prototype",
+		"caseChallenge": "Create an app design to help couples understand each others love languages. A fun looking, intuituve, simple design that allowes you to add your current feelings on each love language as well as get notifications and notes from your partner on theirs. ",
+		"caseSolution": "-",
+		"cardNum": "cards1",
+		"uniqueId": "card1b"
+	},
+	{
+		"header": "HHS ANNUAL</br>REPORT",
 		"text": "A summary of grants the Department of Health and Human Services awarded during Fiscal Years 2016-2019. Tools: Javascript, HTML CSS, JQUERY, MapBox, D3, Fusion Charts.",
-		"image1":"./content/images/annualReportImg.png",
+		"image1": "./content/images/annualReportImg.png",
 		"image2": "./../content/images/arGif.gif",
 		"modalTitle": "HHS ANNUAL REPORT",
 		"caseChallenge": "How can we show large data sets for anyone to easily understand while making the Annual Report look impactful and visually appealing? Other criteria was that it doesn't look like a government site and is accessible.",
 		"caseSolution": "As our main users being Government operating divisions (OPDIVS), we needed to ensure all OPDIVS approved the design of what their data showed and that all data was accurately analyzed. I wanted to tell the story of everything we learned throughout the year. I set up the flow of each page to direct the user to esdily find what data they were interseted in with the least amount of clicks using a master filter that controlls all charts on the page.  The pages with large amount of necessary text was broken into digestible pieces and use colorful, eye catching and meaningful visualizations. ",
 		"cardNum": "cards1",
-		"uniqueId": "card1b"
+		"uniqueId": "card1c"
 	},
 	{
-		"header":"Tracking Accountability in </br>Government Grants System",
+		"header": "Tracking Accountability in </br>Government Grants System",
 		"text": "Government Grants System to track database of grants awarded by the eleven Operating Divisions. Tools: Javascript, HTML CSS, JQUERY, D3, Fusion Charts.",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"./../content/images/taggsgif.gif",
+		"image2": "./../content/images/taggsgif.gif",
 		"modalTitle": "Tracking Accountability in Government Grants System",
 		"caseChallenge": "How can we show all the deep analyzations in a digestible way?  How can we really drill down to specific locations, dates, dollars etc. while still stay accessible, compliant and visually appealing? How can we get all the information on the page without it looking cluttered?",
 		"caseSolution": "One of the biggest design solutions was to use a series of floating filters that were accessible at any time.  Another solution was to use hidden side panels that can be accessed if you need more information. I implemented drill down features into each type of chart to really narrow down what the user was looking for.  To keep things visually appealing and less confusing to the user each page has its own color scheme.",
 		"cardNum": "cards1",
-		"uniqueId": "card1c"
-
+		"uniqueId": "card1d"
 	},
 	{
-		"header":"TAGGS BACKOFFICE</br>APPLICATION",
+		"header": "TAGGS BACKOFFICE</br>APPLICATION",
 		"text": "Private client side dashboard to keep track of the data and trends Tools: Javascript, HTML CSS, JQUERY, DevExpress, adobeXD",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"./../content/images/tbo.png",
+		"image2": "./../content/images/tbo.png",
 		"modalTitle": "TAGGS BACKOFFICE APPLICATION",
 		"caseChallenge": "To create a private dashboard for the client to be able to analyze important data to keep track of where the grant money is going and which Operating Divisions (OPDIVS) are compliant with their reporting.",
 		"caseSolution": "I had to create a design that was high level visualizations in a dashbaord maner that lets you dig deep into the data and manipulate it to see many different views.  I used a series of bite size cards to display big numbers quickly upon entering the dashboard.  I also used tabbed sections similar to differnt file structures to easily organize each type of chart that needed a more full width view.  I utilized colors to help viewers quickly establish what they are looking at.",
 		"cardNum": "cards1",
-		"uniqueId": "card1d"
+		"uniqueId": "card1e"
 	},
 	{
-		"header":"HHS ANNUAL </br> REPORT PDF",
+		"header": "HHS ANNUAL </br> REPORT PDF",
 		"text": "AR Accessible PDF Summary Sample Page - Tools: InDesign",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"./../content/images/arpdf.jpg",
+		"image2": "./../content/images/arpdf.jpg",
 		"modalTitle": "HHS ANNUAL REPORT PDF Sample page",
 		"caseChallenge": "Take the website design and data and create a 508 compliant PDF the showcase the annual data. Ensure users who use the PDF are getting the same experience they would if they were using the website online.",
 		"caseSolution": "I was able to take what was designed for the web and ocnvert it to look appealing within PDF format.  I was able to format it in a way that would make sense to the user if they had used the master filter.",
 		"cardNum": "cards1",
-		"uniqueId": "card1e"
+		"uniqueId": "card1f"
 	}
 ]

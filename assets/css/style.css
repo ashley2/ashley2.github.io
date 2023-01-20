@@ -24074,7 +24074,7 @@ hr {
   border: 3px solid #a9c875;
 }
 .contactLinks:focus {
-  border-color: #dd8672;
+  border-color: #a9c875;
 }
 
 footer {
@@ -24369,7 +24369,7 @@ body .content {
 }
 #projectBtn:focus, #contactBtn:focus, .sendBtn:focus {
   color: white;
-  border: 3px solid #dd8672;
+  border: 3px solid blue;
   background-color: #dd8672;
 }
 
