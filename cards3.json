@@ -3,7 +3,7 @@
 		"header":"BRAND KIT",
 		"text": "Brand kit package example including logos, banners, typograhpy, colors and social media kit",
 		"image1":"content/images/brandKit.PNG",
-		"image2": "./../content/images/brandKit.PNG",
+		"image2": "./../content/images/brandkit2.png",
 		"modalTitle": "BRAND KIT",
 		"caseChallenge": "Create a style guide that will help the brand stay cohesive across all types of media.",
 		"caseSolution": "I brainstormed typograhpy, and color to envoke emotion that fits the brand.  You can get a clear picture of the brands image.  I included custom icons. These media kits will help any brand redefine themselves online.",
@@ -25,12 +25,23 @@
 		"header":"Logo </br>Examples",
 		"text": "These are some examples of logos I have created based on clients requirements.",
 		"image1": "https://gph.is/g/4AgX8LN",
-		"image2":"./../content/images/logoExamples.png",
+		"image2":"./../content/images/logos1.png",
 		"modalTitle": "Logo Examples",
 		"caseChallenge": "Each logo required unique designs based on the clients request for their brand.",
 		"caseSolution": "Utilizing color to create the mood of the brand and typography & shapes to make the design coheisve.",
 		"cardNum": "cards3",
 		"uniqueId": "card3c"
+	},
+	{
+		"header":"Logo </br>Examples",
+		"text": "These are some examples of logos I have created based on clients requirements.",
+		"image1": "https://gph.is/g/4AgX8LN",
+		"image2":"./../content/images/logos2.png",
+		"modalTitle": "Logo Examples",
+		"caseChallenge": "Each logo required unique designs based on the clients request for their brand.",
+		"caseSolution": "Utilizing color to create the mood of the brand and typography & shapes to make the design coheisve.",
+		"cardNum": "cards3",
+		"uniqueId": "card3d"
 	},
 	{
 		"header":"Event </br> poster",
@@ -41,6 +52,6 @@
 		"caseChallenge": "Create an event poster showcasing the event and musical guest",
 		"caseSolution": "I really focused on the use of space for this mockup. I wanted all the information to be included without cluttering the poster. It  needed be easy to read at a glance and really showing off the musical artist.",
 		"cardNum": "cards3",
-		"uniqueId": "card3d"
+		"uniqueId": "card3e"
 	}
 ]
